@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #F5F6F7;
@@ -194,3 +195,41 @@ body{
 }
 
 /* End Form Register as student */
+
+
+/* Home */
+    /* header */
+        .header{
+            background-color: #fdbd3425;
+            height: 540px;
+        }
+        .header .title{
+            font-size: 60px
+        }
+    /* header */
+
+    /* category */
+        .Category a{
+            color: black;
+            text-decoration: none;
+        }
+
+    /* category */
+
+    /* Available internships */
+    .internshipDisp{
+        background-color: #e2edff;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .internshipDisp .card-post{
+        background-color: white;
+        border-radius: 20px;
+        border: 1px solid rgb(224, 224, 224);
+    }
+    .internshipDisp a{
+        text-decoration: none;
+    }
+    /* Available internships */
+
+/* Home */
