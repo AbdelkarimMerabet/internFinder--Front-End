@@ -391,6 +391,42 @@ footer .Links li a:hover{
 
     /* profile student */
 
+    /* profile company */
+    .profileCompany .nav{
+        justify-content: center;
+        background-color: white;
+        box-shadow: 0 0px 0px rgb(0 0 0 / 0.2);
+    }
+    .profileCompany .tab-content{
+        background-color: #ffffff;
+        padding: 15px;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
+    }
+    .profileCompany .company .title{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .profileCompany .company .companyPhoto{
+        border-radius: 50%;
+        width: 150px;
+    }
+    .profileCompany .company .media{
+        font-size: 30px;
+    }
+    .profileCompany .company .media li{
+        margin-right: 10px;
+    }
+    .profileCompany .company .Description{
+        border: 1px solid #dbdbdb;
+        border-radius: 7px;
+    }
+    .profileCompany .Offers .card-post{
+        border: 1px solid #dbdbdb;
+        padding-top: 7px;
+        padding-left: 20px;
+    }
+    /* profile company */
+
 
 
 /* profile */
