@@ -105,7 +105,7 @@ footer .Links li a:hover{
 
 /* Start Form login */
 .Form-login .logo{
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 85px;
     text-decoration: none;
 }
@@ -187,7 +187,7 @@ footer .Links li a:hover{
 
 /* Start Form register */
 .Form-register .logo{
-    font-size: 35px;
+    font-size: 30px;
     margin-left: 85px;
     text-decoration: none;
 }
@@ -425,6 +425,10 @@ footer .Links li a:hover{
         padding-top: 7px;
         padding-left: 20px;
     }
+    .profileCompany .Requests .card-requests{
+        border: 1px solid #dbdbdb;
+        padding: 7px;
+    }
     /* profile company */
 
 
@@ -464,3 +468,14 @@ footer .Links li a:hover{
 }
 
 
+.btn-Add{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FDBE34;
+    color: white;
+
+}
+.btn-Add:hover{
+    color: white;
+    text-decoration: none;
+}
