@@ -330,10 +330,6 @@ footer .Links li a:hover{
             width: 150px;
         }
         
-        .profile-img img{
-            border-radius: 50%;
-            width: 50px;
-        }
         .profile-img .file {
             position: relative;
             overflow: hidden;
@@ -406,10 +402,7 @@ footer .Links li a:hover{
         margin-bottom: 20px;
         font-size: 30px;
     }
-    .profileCompany .company .companyPhoto{
-        border-radius: 50%;
-        width: 150px;
-    }
+    
     .profileCompany .company .media{
         font-size: 30px;
     }
@@ -428,6 +421,26 @@ footer .Links li a:hover{
     .profileCompany .Requests .card-requests{
         border: 1px solid #dbdbdb;
         padding: 7px;
+    }
+    .btn-Add{
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #FDBE34;
+        color: white;
+    
+    }
+    .btn-Add:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+    .profileCompany .fixed-size {
+        height: 200px !important;
+        width: 100%;
+    }
+    .profileCompany .changePhoto{
+        border-radius: 50%;
+        width: 150px;
     }
     /* profile company */
 
@@ -468,14 +481,4 @@ footer .Links li a:hover{
 }
 
 
-.btn-Add{
-    padding: 5px;
-    border-radius: 5px;
-    background-color: #FDBE34;
-    color: white;
 
-}
-.btn-Add:hover{
-    color: white;
-    text-decoration: none;
-}
