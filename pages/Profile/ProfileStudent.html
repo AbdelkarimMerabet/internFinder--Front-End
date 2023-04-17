@@ -57,618 +57,673 @@
      <!-- content profile -->
     <div class="ProfileStudent">
 
-        <!-- side -->
-        <div class="">
-            <spin class="nav ProfileStudent-nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-
-            <!-- Profile -->
-            <spin class="nav-link active " id="v-pills-Profile-tab" data-toggle="pill" data-target="#v-pills-Profile" type="button" role="tab" aria-controls="v-pills-Profile" aria-selected="true">
+        <!-- navbar-content -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+             <!-- Profile -->
+            <li class="nav-item">
+            <a class="nav-link active" id="pills-Profile-tab" data-toggle="pill" href="#pills-Profile" role="tab" aria-controls="pills-Profile" aria-selected="true">
                 <i class="icons bi bi-person-circle " ></i> 
                 <span class="title-nav">Profile</span>
-            </spin>
-            <!-- Profile --> 
-
+            </a>
+            </li>
+            <!-- Profile -->
+            
             <!-- Saved internships -->
-            <spin class="nav-link " id="v-pills-SavedInternships-tab" data-toggle="pill" data-target="#v-pills-SavedInternships" type="button" role="tab" aria-controls="v-pills-SavedInternships" aria-selected="false"><i class="icons bi bi-bookmark"></i> <span class="title-nav">Saved Internships</span>
-            </spin>
+            <li class="nav-item">
+            <a class="nav-link" id="pills-SavedInternships-tab" data-toggle="pill" href="#pills-SavedInternships" role="tab" aria-controls="pills-SavedInternships" aria-selected="false">
+                <i class="icons bi bi-bookmark"></i> <span class="title-nav">Saved Internships</span>
+              </a>
+            </li>
             <!-- Saved internships -->
 
             <!-- My requests -->
-            <spin class="nav-link " id="v-pills-MyRequests-tab" data-toggle="pill" data-target="#v-pills-MyRequests" type="button" role="tab" aria-controls="v-pills-MyRequests" aria-selected="false">
-                
+            <li class="nav-item">
+            <a class="nav-link" id="pills-MyRequests-tab" data-toggle="pill" href="#pills-MyRequests" role="tab" aria-controls="pills-MyRequests" aria-selected="false">
                 <i class="icons bi bi-menu-button-wide-fill"></i><span class="title-nav">My  Requests</span> 
-            </spin>
+
+            </a>
+            </li>
             <!-- My requests -->
 
             <!-- Settings -->
-            <spin class="nav-link " id="v-pills-Settings-tab" data-toggle="pill" data-target="#v-pills-Settings" type="button" role="tab" aria-controls="v-pills-Settings" aria-selected="false"><i class="icons bi bi-gear"></i> <span class="title-nav">Settings</span></spin>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-Settings-tab" data-toggle="pill" href="#pills-Settings" role="tab" aria-controls="pills-Settings" aria-selected="false">
+                
+                
+                <i class="icons bi bi-gear"></i> <span class="title-nav">Settings</span>
+
+              </a>
+            </li>
             <!-- Settings -->
 
+
             <!-- log out -->
-            <spin class="nav-link " id="v-pills-logOut-tab" data-toggle="pill" data-target="#v-pills-logOut" type="button" role="tab" aria-controls="v-pills-logOut" aria-selected="false"><i class="icons bi bi-box-arrow-left"></i> <span class="title-nav">log out</span></spin>
+            <li class="nav-item">
+              <a class="nav-link"  data-toggle="pill"  role="tab"  aria-selected="false">
+                <i class="icons bi bi-box-arrow-left"></i> 
+                <span class="title-nav">log out</span></spin>
+              </a>
+            </li>
             <!-- log out -->
-        </spin>
-        </div>
-        <!-- side -->
+
+        </ul> 
+        <!-- navbar-content -->
+
 
         <!-- main -->
-            <div class="ProfileStudent-content">  
-                <div class="tab-content " id="v-pills-tabContent">
+        <div class="container">
+            <div class="tab-content" id="pills-tabContent">
 
-                    <!-- Profile -->
-                    <div class="tab-pane fade show active" id="v-pills-Profile" role="tabpanel" aria-labelledby="v-pills-Profile-tab">
-                        <h3>Public Profile</h3>
-                        <hr>
+                <!-- Profile -->
+                <div class="tab-pane fade show active" id="v-pills-Profile" role="tabpanel" aria-labelledby="v-pills-Profile-tab">
+                    <h3>Public Profile</h3>
+                    <hr>
 
-                        <!-- General informations -->
-                        <div class="General">
-                            <h5>General informations</h5>
-                            <div class="profile-img ">
-                            <div class="pb-1">
-                                <img src="../../images/PhotoProfile.jpg" class="changePhoto"alt="">
-                            </div>
-                            <div class="file btn btn-lg btn-primary">
-                                Change Photo
-                            <input type="file" name="file"/>
-                            </div>
+                    <!-- General informations -->
+                    <div class="General">
+                        <h5>General informations</h5>
+                        <div class="profile-img ">
+                        <div class="pb-1">
+                            <img src="../../images/PhotoProfile.jpg" width="150px" class="img-fluid rounded-circle">
                         </div>
-                        <div class="form-row mt-3">
-                            <div class="col-md-6">
-                                <label >First name </label>
-                                <input  type="text" placeholder="Abdelkarim" class="form-control">
-                            </div>
-                            <div class="col-md-6">
-                                <label >Last name </label>
-                                <input   type="text" placeholder="Merabet" class="form-control">
-                            </div>
+                        <div class="file btn btn-lg btn-primary">
+                            Change Photo
+                        <input type="file" name="file"/>
                         </div>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <label>Email address</label>
-                                <input  type="email" placeholder="merabet@gmail.com" class="form-control">
-                            </div>
-                            <div class="col-md-6">
-                                <label>Number phone</label>
-                                <input  type="text" placeholder="0778578282" class="form-control">
-                            </div>
+                    </div>
+                    <div class="form-row mt-3">
+                        <div class="col-md-6">
+                            <label >First name </label>
+                            <input  type="text" placeholder="Abdelkarim" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label >Last name </label>
+                            <input   type="text" placeholder="Merabet" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label>Email address</label>
+                            <input  type="email" placeholder="merabet@gmail.com" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Number phone</label>
+                            <input  type="text" placeholder="0778578282" class="form-control">
+                        </div>
+                        
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label>Region</label>
+                            <input  type="text" placeholder="Chlef,Chlef" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label>Gender</label>
+                            <select class="custom-select" id="inputGroupSelect01">
+                                <option selected>male</option>
+                                <option value="1">female</option>
+                            </select>
+                            
                             
                         </div>
-                        <div class="form-row">
-                            <div class="col-md-6">
-                                <label>Region</label>
-                                <input  type="text" placeholder="Chlef,Chlef" class="form-control">
-                            </div>
-                            <div class="col-md-6">
-                                <label>Gender</label>
-                                <select class="custom-select" id="inputGroupSelect01">
-                                    <option selected>male</option>
-                                    <option value="1">female</option>
-                                </select>
-                                
-                                
-                            </div>
-                            
+                        
+                    </div>
+                    <div class="d-flex align-items-end flex-column bd-highlight mt-3 ">
+                        <div class="p-2 bd-highlight">
+                            <button type="button" class="btn btn-success">
+                            Save
+                            </button>
                         </div>
-                        <div class="d-flex align-items-end flex-column bd-highlight mt-3 ">
-                            <div class="p-2 bd-highlight">
-                                <button type="button" class="btn btn-success">
-                                Save
+                    </div>
+                    </div>
+                    <!-- General informations -->
+                    
+                    <hr>
+                    
+                    <!-- Education -->
+                    <div class="Education">
+                        <div class="d-flex justify-content-between">
+                            <h5>Education</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalEducation">
+                                <i class="bi bi-plus-lg"></i> Add
+                            </button>
+                        </div>
+                        <!-- 2 exemple card-education -->
+                        <div class="d-flex  flex-column bd-highlight mt-3 mb-3 ">
+                            <div class="card-education">
+                                <div  class="d-flex justify-content-between flex-row bd-highlight ">  
+                                    <div class="title">Licence</div>
+                                    <div>
+                                        <button class="btn btn-outline-danger">
+                                            <i class="bi bi-x-lg" ></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="bi bi-pencil-fill" ></i></i>
+                                        </spin>
+                                    </div>
+                                    
+                                </div>
+                                <hr>
+                                <div>hassiba benbouali  of chlef</div>
+                                <div>Informatique</div>
+                                <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
+                                </div>
+                            </div> 
+                            <div class="card-education">
+                                <div  class="d-flex justify-content-between flex-row bd-highlight ">  
+                                    <div class="title">Licence</div>
+                                    <div>
+                                        <button class="btn btn-outline-danger">
+                                            <i class="bi bi-x-lg" ></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="bi bi-pencil-fill" ></i></i>
+                                        </spin>
+                                    </div>
+                                    
+                                </div>
+                                <hr>
+                                <div>hassiba benbouali  of chlef</div>
+                                <div>Informatique</div>
+                                <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 exemple card-education -->
+
+                        <!-- Modal Education -->
+                        <div class="modal fade" id="ModalEducation" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Add a Education</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
                                 </button>
-                            </div>
-                        </div>
-                        </div>
-                        <!-- General informations -->
-                        
-                        <hr>
-                        
-                        <!-- Education -->
-                        <div class="Education">
-                            <div class="d-flex justify-content-between">
-                                <h5>Education</h5>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalEducation">
-                                    <i class="bi bi-plus-lg"></i> Add
-                                </button>
-                            </div>
-                            <!-- 2 exemple card-education -->
-                            <div class="d-flex  flex-column bd-highlight mt-3 mb-3 ">
-                                <div class="card-education">
-                                    <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                        <div class="title">Licence</div>
-                                        <div>
-                                            <button class="btn btn-outline-danger">
-                                                <i class="bi bi-x-lg" ></i>
-                                            </button>
-                                            <button class="btn btn-outline-success">
-                                                <i class="bi bi-pencil-fill" ></i></i>
-                                            </spin>
-                                        </div>
-                                        
-                                    </div>
-                                    <hr>
-                                    <div>hassiba benbouali  of chlef</div>
-                                    <div>Informatique</div>
-                                    <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
-                                    </div>
-                                </div> 
-                                <div class="card-education">
-                                    <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                        <div class="title">Licence</div>
-                                        <div>
-                                            <button class="btn btn-outline-danger">
-                                                <i class="bi bi-x-lg" ></i>
-                                            </button>
-                                            <button class="btn btn-outline-success">
-                                                <i class="bi bi-pencil-fill" ></i></i>
-                                            </spin>
-                                        </div>
-                                        
-                                    </div>
-                                    <hr>
-                                    <div>hassiba benbouali  of chlef</div>
-                                    <div>Informatique</div>
-                                    <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
-                                    </div>
                                 </div>
-                            </div>
-                            <!-- 2 exemple card-education -->
-
-                            <!-- Modal Education -->
-                            <div class="modal fade" id="ModalEducation" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Add a Education</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                            <form>  
-                                                <div class="row form-group">
-                                                    
-                                                        <div class="col-sm-12">
-                                                            <label>Degre</label>
-                                                            <select class="custom-select" id="inputGroupSelectDegre">
-                                                        <option selected>Licence</option>
-                                                        <option value="1">Master</option>
-                                                        <option value="2">PHD</option>
-                                                        <option value="1">L1</option>
-                                                        <option value="2">L2</option>
-                                                        <option value="1">L3</option>
-                                                        <option value="2">BAC</option>
-                                                        <option value="1">CFPS</option>
-                                                        <option value="2">CAP</option>
-                                                        <option selected>CMP</option>
-                                                        <option value="1">BT</option>
-                                                        <option value="2">TS</option>
-                                                            </select>
-                                                            </div>
-                                                        <div class="col-sm-12">
-                                                            <label>School</label>
-                                                            <input type="text" class="form-control" placeholder="Enter school / university" id="inputGroupDegre">
-                                                            </div>
-                                                        <div class="col-sm-12">
-                                                                <label>Speciality</label>
-                                                                <input type="text" class="form-control" placeholder="Enter speciality" id="inputGroupDegre">
-                                                            </div>
-                                                        <div class="col-sm-6">
-                                                            <label for="StartDate" class=" col-form-label">Start Date </label>
-                                                            <input type="text" id="StartDateEducation" class="form-control">
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <label for="EndDate" class="col-form-label">End Date</label>
-                                                            <input type="text" id="EndDateEducation" class="form-control">
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                        <label for="">Description</label>
-                                                        <textarea oninput="limitWords(event)" class="form-control fixed-size" onkeypress="return imposeMaxLength(this, 100);" id="comment"></textarea>
-                                                        </div>
-                                                        
-                                                        </div>
-                                                        </form>
-                                        
-                                        
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                    <button type="button" class="btn btn-primary">Add</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- Modal Education -->
-                        </div>
-                        <!-- Education -->
-                        
-                        <hr>
-                        
-                        <!-- Education -->
-
-                        <!-- Experiences -->
-                        <div class="Experiences">
-                            <div class="d-flex justify-content-between">
-                                <h5>Experiences</h5>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalExperiences">
-                                    <i class="bi bi-plus-lg"></i> Add
-                                </button>
-                            </div>
-
-                            <!-- 2 exemple card-education -->
-                            <div class="d-flex  flex-column bd-highlight mt-3 mb-3 ">
-                                <div class="card-experiences">
-                                    <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                        <div class="title">Developer</div>
-                                        <div>
-                                            <button class="btn btn-outline-danger">
-                                                <i class="bi bi-x-lg" ></i>
-                                            </button>
-                                            <button class="btn btn-outline-success">
-                                                <i class="bi bi-pencil-fill" ></i></i>
-                                            </spin>
-                                        </div>
-                                        
-                                    </div>
-                                    <hr>
-                                    
-                                    
-                                    <div ><i class="bi bi-calendar"></i> 5/5/2020-3/9/2022</div>
-                                    <P>back-end developer</P>
-
-                                </div>
-                                <div class="card-experiences">
-                                    <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                        <div class="title">Developer</div>
-                                        <div>
-                                            <button class="btn btn-outline-danger">
-                                                <i class="bi bi-x-lg" ></i>
-                                            </button>
-                                            <button class="btn btn-outline-success">
-                                                <i class="bi bi-pencil-fill" ></i></i>
-                                            </spin>
-                                        </div>
-                                        
-                                    </div>
-                                    <hr>
-                                    
-                                    
-                                    <div ><i class="bi bi-calendar"></i> 5/5/2020-3/9/2022</div>
-                                    <P>back-end developer</P>
-
-                                </div>  
-                        
-                            </div>
-                            <!-- 2 exemple card-education -->
-
-                            <!-- Modal Experiences -->
-                            <div class="modal fade" id="ModalExperiences" tabindex="-1" role="dialog" aria-labelledby="ModalExperiencesTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Add a Experience</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
+                                <div class="modal-body">
                                         <form>  
                                             <div class="row form-group">
                                                 
-                                                <div class="col-sm-12">
-                                                    <label>Job</label>
-                                                    <input type="text" class="form-control" placeholder="Enter Job" id="inputGroupDegre">
-                                                </div>
-                                                
-                                                <div class="col-sm-6">
-                                                    <label for="StartDate" class=" col-form-label">Start Date </label>
-                                                    <input type="text" id="StartDateExperiences" class="form-control">
-                                                </div>
-                                                <div class="col-sm-6">
-                                                    <label for="EndDate" class="col-form-label">End Date</label>
-                                                    <input type="text" id="EndDateExperiences" class="form-control">
-                                                </div>
-                                                <div class="col-sm-12">
-                                                <label for="">Description</label>
-                                                <textarea oninput="limitWords(event)" class="form-control fixed-size" onkeypress="return imposeMaxLength(this, 100);" id="comment"></textarea>
-                                                </div>  
-                                            </div>
-                                        </form>   
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                    <button type="button" class="btn btn-primary">Add</button>
-                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <label>Degre</label>
+                                                        <select class="custom-select" id="inputGroupSelectDegre">
+                                                    <option selected>Licence</option>
+                                                    <option value="1">Master</option>
+                                                    <option value="2">PHD</option>
+                                                    <option value="1">L1</option>
+                                                    <option value="2">L2</option>
+                                                    <option value="1">L3</option>
+                                                    <option value="2">BAC</option>
+                                                    <option value="1">CFPS</option>
+                                                    <option value="2">CAP</option>
+                                                    <option selected>CMP</option>
+                                                    <option value="1">BT</option>
+                                                    <option value="2">TS</option>
+                                                        </select>
+                                                        </div>
+                                                    <div class="col-sm-12">
+                                                        <label>School</label>
+                                                        <input type="text" class="form-control" placeholder="Enter school / university" id="inputGroupDegre">
+                                                        </div>
+                                                    <div class="col-sm-12">
+                                                            <label>Speciality</label>
+                                                            <input type="text" class="form-control" placeholder="Enter speciality" id="inputGroupDegre">
+                                                        </div>
+                                                    <div class="col-sm-6">
+                                                        <label for="StartDate" class=" col-form-label">Start Date </label>
+                                                        <input type="text" id="StartDateEducation" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <label for="EndDate" class="col-form-label">End Date</label>
+                                                        <input type="text" id="EndDateEducation" class="form-control">
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                    <label for="">Description</label>
+                                                    <textarea oninput="limitWords(event)" class="form-control fixed-size" onkeypress="return imposeMaxLength(this, 100);" id="comment"></textarea>
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    </form>
+                                    
+                                    
                                 </div>
+                                <div class="modal-footer text-center">
+                                <button type="button" class="btn btn-primary">Add</button>
                                 </div>
                             </div>
-                            <!-- Modal Experiences -->
-
+                            </div>
                         </div>
-                        <!-- Experiences -->
-
-                        <hr>
-
-                        <!-- Skills -->
-                        <div class="Skills">
-                            <div class="d-flex justify-content-between">
-                                <h5>Skills</h5>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalSkills">
-                                    <i class="bi bi-plus-lg"></i> Add
-                                </button>
-                            </div>
-
-                            <!-- exemple Skills -->
-                            <div class="d-flex flex-row flex-wrap bd-highlight mt-3 ">
-                                <spin class="selected m-2">
-                                    Figma - Beginner 
-                                    <button type="button" class="close"  >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </spin>
-                                <spin class="selected m-2">
-                                    Bootstrap  - Experience
-                                    <button type="button" class="close"  >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </spin>
-                                <spin class="selected m-2">
-                                    css  - Beginner
-                                    <button type="button" class="close"  >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </spin>
-                            </div>
-                            <!-- exemple Skills -->
-
-                            <!-- Modal Skills -->
-                            <div class="modal fade" id="ModalSkills" tabindex="-1" role="dialog" aria-labelledby="ModalSkillsTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Add a Skills</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <label>Skills</label>
-                                        <select class="custom-select" id="inputGroupSelectSkills">
-                                            <option selected>Figma</option>
-                                            <option value="1">Bootstrap</option>
-                                            <option value="2">React js</option>
-                                            <option value="3">Laravel</option>
-                                            <option value="4">css</option>
-                                            <option value="5">Flutter</option>
-                                            <option value="6">jQuery</option>
-                                            <option value="7">c++</option>
-                                        </select>
-                                        <label>level</label>
-                                        <select class="custom-select" id="inputGroupSelectlevelSkills">
-                                            <option selected>Beginner</option>
-                                            <option value="1">Experience</option>
-                                            <option value="2">Expert</option>
-                                            
-                                        </select>
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                    <button type="button" class="btn btn-primary">Add</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- Modal Skills -->
-
-                        </div>
-                        <!-- Skills -->
-                        
-                        <hr>
-
-                        <!-- Languages -->
-                        <div class="Languages">
-                            <div class="d-flex justify-content-between">
-                                <h5>Languages</h5>
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLanguages">
-                                    <i class="bi bi-plus-lg"></i> Add
-                                </button>
-                            </div>
-
-                            <!-- exemple Languages -->
-                            <div class="d-flex flex-wrap flex-row bd-highlight mt-3 ">
-                                <spin class="selected m-2">
-                                    English - A1 
-                                    <button type="button" class="close"  >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </spin>
-                                <spin class="selected m-2">
-                                    Arabic  - B2
-                                    <button type="button" class="close"  >
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </spin>
-                            </div>
-                            <!-- exemple Languages -->
-
-                            <!-- Modal Languages -->
-                            <div class="modal fade" id="ModalLanguages" tabindex="-1" role="dialog" aria-labelledby="ModalLanguagesTitle" aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Add a language</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <label>Language</label>
-                                        <select class="custom-select" id="inputGroupSelectLanguage">
-                                            <option selected>English</option>
-                                            <option value="1">French</option>
-                                            <option value="2">Arabe</option>
-                                        </select>
-                                        <label>level</label>
-                                        <select class="custom-select" id="inputGroupSelectlevelLanguage">
-                                            <option selected>A1</option>
-                                            <option value="1">A2</option>
-                                            <option value="1">B1</option>
-                                            <option value="1">B2</option>
-                                            <option value="1">C1</option>
-                                            <option value="1">C2</option>
-                                        </select>
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                    <button type="button" class="btn btn-primary">Add</button>
-                                    </div>
-                                </div>
-                                </div>
-                            </div>
-                            <!-- Modal Languages -->    
-                            
-                        </div>
-                        <!-- Languages -->
+                        <!-- Modal Education -->
+                    </div>
+                    <!-- Education -->
                     
-                    </div>
-                    <!-- Profile -->
+                    <hr>
+                    
+                    <!-- Education -->
 
-                    <!-- Saved Internships -->
-                    <div class="tab-pane fade" id="v-pills-SavedInternships" role="tabpanel" aria-labelledby="v-pills-SavedInternships-tab">
-                        <div>
-                            <h3>Saved Internships</h3>
-                            <hr>
-                            
-                            <div>In this section, all the job offers that you have saved are stored</div>
-
-                            <div class="mt-5">You don't have any saved offers</div>
-                            
-                        
-            
+                    <!-- Experiences -->
+                    <div class="Experiences">
+                        <div class="d-flex justify-content-between">
+                            <h5>Experiences</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalExperiences">
+                                <i class="bi bi-plus-lg"></i> Add
+                            </button>
                         </div>
-                    </div>
-                    <!-- Saved Internships -->
 
-                    <!-- My Requests -->
-                    <div class="tab-pane fade" id="v-pills-MyRequests" role="tabpanel" aria-labelledby="v-pills-MyRequests-tab">
-                        <h3>My Requests</h3>
-                            <hr>
-                            
-                            <div>In this section, all advertisements that you applied to are stored</div>
-
-                            <div class="mt-5">
-                                There are no requests
+                        <!-- 2 exemple card-education -->
+                        <div class="d-flex  flex-column bd-highlight mt-3 mb-3 ">
+                            <div class="card-experiences">
+                                <div  class="d-flex justify-content-between flex-row bd-highlight ">  
+                                    <div class="title">Developer</div>
+                                    <div>
+                                        <button class="btn btn-outline-danger">
+                                            <i class="bi bi-x-lg" ></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="bi bi-pencil-fill" ></i></i>
+                                        </spin>
+                                    </div>
+                                    
+                                </div>
+                                <hr>
+                                
+                                
+                                <div ><i class="bi bi-calendar"></i> 5/5/2020-3/9/2022</div>
+                                <P>back-end developer</P>
 
                             </div>
-                        
-                        
-                        
+                            <div class="card-experiences">
+                                <div  class="d-flex justify-content-between flex-row bd-highlight ">  
+                                    <div class="title">Developer</div>
+                                    <div>
+                                        <button class="btn btn-outline-danger">
+                                            <i class="bi bi-x-lg" ></i>
+                                        </button>
+                                        <button class="btn btn-outline-success">
+                                            <i class="bi bi-pencil-fill" ></i></i>
+                                        </spin>
+                                    </div>
+                                    
+                                </div>
+                                <hr>
+                                
+                                
+                                <div ><i class="bi bi-calendar"></i> 5/5/2020-3/9/2022</div>
+                                <P>back-end developer</P>
 
+                            </div>  
+                    
+                        </div>
+                        <!-- 2 exemple card-education -->
 
+                        <!-- Modal Experiences -->
+                        <div class="modal fade" id="ModalExperiences" tabindex="-1" role="dialog" aria-labelledby="ModalExperiencesTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Add a Experience</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>  
+                                        <div class="row form-group">
+                                            
+                                            <div class="col-sm-12">
+                                                <label>Job</label>
+                                                <input type="text" class="form-control" placeholder="Enter Job" id="inputGroupDegre">
+                                            </div>
+                                            
+                                            <div class="col-sm-6">
+                                                <label for="StartDate" class=" col-form-label">Start Date </label>
+                                                <input type="text" id="StartDateExperiences" class="form-control">
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <label for="EndDate" class="col-form-label">End Date</label>
+                                                <input type="text" id="EndDateExperiences" class="form-control">
+                                            </div>
+                                            <div class="col-sm-12">
+                                            <label for="">Description</label>
+                                            <textarea oninput="limitWords(event)" class="form-control fixed-size" onkeypress="return imposeMaxLength(this, 100);" id="comment"></textarea>
+                                            </div>  
+                                        </div>
+                                    </form>   
+                                </div>
+                                <div class="modal-footer text-center">
+                                <button type="button" class="btn btn-primary">Add</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Modal Experiences -->
 
+                    </div>
+                    <!-- Experiences -->
+
+                    <hr>
+
+                    <!-- Skills -->
+                    <div class="Skills">
+                        <div class="d-flex justify-content-between">
+                            <h5>Skills</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalSkills">
+                                <i class="bi bi-plus-lg"></i> Add
+                            </button>
+                        </div>
+
+                        <!-- exemple Skills -->
+                        <div class="d-flex flex-row flex-wrap bd-highlight mt-3 ">
+                            <spin class="selected m-2">
+                                Figma - Beginner 
+                                <button type="button" class="close"  >
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </spin>
+                            <spin class="selected m-2">
+                                Bootstrap  - Experience
+                                <button type="button" class="close"  >
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </spin>
+                            <spin class="selected m-2">
+                                css  - Beginner
+                                <button type="button" class="close"  >
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </spin>
+                        </div>
+                        <!-- exemple Skills -->
+
+                        <!-- Modal Skills -->
+                        <div class="modal fade" id="ModalSkills" tabindex="-1" role="dialog" aria-labelledby="ModalSkillsTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Add a Skills</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>Skills</label>
+                                    <select class="custom-select" id="inputGroupSelectSkills">
+                                        <option selected>Figma</option>
+                                        <option value="1">Bootstrap</option>
+                                        <option value="2">React js</option>
+                                        <option value="3">Laravel</option>
+                                        <option value="4">css</option>
+                                        <option value="5">Flutter</option>
+                                        <option value="6">jQuery</option>
+                                        <option value="7">c++</option>
+                                    </select>
+                                    <label>level</label>
+                                    <select class="custom-select" id="inputGroupSelectlevelSkills">
+                                        <option selected>Beginner</option>
+                                        <option value="1">Experience</option>
+                                        <option value="2">Expert</option>
+                                        
+                                    </select>
+                                </div>
+                                <div class="modal-footer text-center">
+                                <button type="button" class="btn btn-primary">Add</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Modal Skills -->
+
+                    </div>
+                    <!-- Skills -->
+                    
+                    <hr>
+
+                    <!-- Languages -->
+                    <div class="Languages">
+                        <div class="d-flex justify-content-between">
+                            <h5>Languages</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalLanguages">
+                                <i class="bi bi-plus-lg"></i> Add
+                            </button>
+                        </div>
+
+                        <!-- exemple Languages -->
+                        <div class="d-flex flex-wrap flex-row bd-highlight mt-3 ">
+                            <spin class="selected m-2">
+                                English - A1 
+                                <button type="button" class="close"  >
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </spin>
+                            <spin class="selected m-2">
+                                Arabic  - B2
+                                <button type="button" class="close"  >
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </spin>
+                        </div>
+                        <!-- exemple Languages -->
+
+                        <!-- Modal Languages -->
+                        <div class="modal fade" id="ModalLanguages" tabindex="-1" role="dialog" aria-labelledby="ModalLanguagesTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">Add a language</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <label>Language</label>
+                                    <select class="custom-select" id="inputGroupSelectLanguage">
+                                        <option selected>English</option>
+                                        <option value="1">French</option>
+                                        <option value="2">Arabe</option>
+                                    </select>
+                                    <label>level</label>
+                                    <select class="custom-select" id="inputGroupSelectlevelLanguage">
+                                        <option selected>A1</option>
+                                        <option value="1">A2</option>
+                                        <option value="1">B1</option>
+                                        <option value="1">B2</option>
+                                        <option value="1">C1</option>
+                                        <option value="1">C2</option>
+                                    </select>
+                                </div>
+                                <div class="modal-footer text-center">
+                                <button type="button" class="btn btn-primary">Add</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- Modal Languages -->    
                         
                     </div>
-                    <!-- My Requests -->
+                    <!-- Languages -->
+                
+                </div>
+                <!-- Profile -->
 
-                    <!-- Settings -->
-                    <div class="tab-pane fade" id="v-pills-Settings" role="tabpanel" aria-labelledby="v-pills-Settings-tab">
-                        <div class="row">
-                            
-                            <div class="col-md-12">
-                                <h3>Settings</h3>
-                                <hr>
-                                <h5>Change Password</h5>
-                                <div>
-                                    Make sure you remember the password to log in 
+                <!-- Saved Internships -->
+                <div class="tab-pane fade" id="pills-SavedInternships" role="tabpanel" aria-labelledby="pills-SavedInternships-tab">
+                    <div>
+                        <h3>Saved Internships</h3>
+                        <hr>
+                        
+                        <div>In this section, all the job offers that you have saved are stored</div>
+
+                        <div class="mt-5">You don't have any saved offers</div>
+                        
+                    
+        
+                    </div>
+                </div>
+                <!-- Saved Internships -->
+
+                <!-- My Requests -->
+                <div class="tab-pane fade" id="pills-MyRequests" role="tabpanel" aria-labelledby="pills-MyRequests-tab">
+                    <h3>My Requests</h3>
+                        <hr>
+                        
+                        <div>In this section, all advertisements that you applied to are stored</div>
+
+                        <div class="mt-5">
+                            There are no requests
+
+                        </div>   
+                </div>
+                <!-- My Requests -->
+
+                <!-- Settings -->
+                <div class="tab-pane fade" id="pills-Settings" role="tabpanel" aria-labelledby="pills-Settings-tab">
+                    <div class="row">
+                        
+                        <div class="col-md-12">
+                            <h3>Settings</h3>
+                            <hr>
+                            <h5>Change Password</h5>
+                            <div>
+                                Make sure you remember the password to log in 
+                            </div>
+                            <div class="form-row">
+                                <div class="col-md-12">
+                                    <p class="paragraph">
+                                        Enter the new password.
+                                    </p>
+                                </div>
+                            </div>
+                            <form >
+                                <div class="form-row">
+                                    <div class="col-md-12">
+                                        <label>Old password</label>
+                                        <input type="password" placeholder="Password" class="form-control">
+                                    </div>
                                 </div>
                                 <div class="form-row">
                                     <div class="col-md-12">
-                                        <p class="paragraph">
-                                            Enter the new password.
-                                        </p>
+                                        <label>New Password</label>
+                                        <input type="password" placeholder="Password" class="form-control">
                                     </div>
                                 </div>
-                                <form >
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                            <label>Old password</label>
-                                            <input type="password" placeholder="Password" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                            <label>New Password</label>
-                                            <input type="password" placeholder="Password" class="form-control">
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                            <label>Confirm Password</label>
-                                            <input type="password" placeholder="Confirm" class="form-control ">
-                                        </div>
-                                    </div>  
-                                </form>
-                                <div class="d-flex align-items-end flex-column bd-highlight mb-3">
-                                    <div class="p-2 bd-highlight">
-                                        <button type="button" class="btn btn-success">
-                                        Save
-                                        </button>
-                                    </div>
-                                </div>
-                                <hr>
-                                <h5 class="pt-4">Delete Account</h5>
-                                <div class="row">
+                                <div class="form-row">
                                     <div class="col-md-12">
-                                        <p>Abdelkarim , 
-                                            <br>
-                                            Are you sure you want to Delete your account? You will lose all your data.
-                                        </p>
+                                        <label>Confirm Password</label>
+                                        <input type="password" placeholder="Confirm" class="form-control ">
                                     </div>
-            
+                                </div>  
+                            </form>
+                            <div class="d-flex align-items-end flex-column bd-highlight mb-3">
+                                <div class="p-2 bd-highlight">
+                                    <button type="button" class="btn btn-success">
+                                    Save
+                                    </button>
                                 </div>
-                                <div class="d-flex align-items-end justify-content-end flex-column bd-highlight mb-3">
-                                    <div class="p-2 bd-highlight">
-                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#DeleteAcc">
-                                            Delete Account
-                                        </button>
-                                    </div>
+                            </div>
+                            <hr>
+                            <h5 class="pt-4">Delete Account</h5>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p>Abdelkarim , 
+                                        <br>
+                                        Are you sure you want to Delete your account? You will lose all your data.
+                                    </p>
                                 </div>
-                                <div class="row">
-                                    
-                                    <!-- Modal Delete account -->
-                                        <div class="modal fade " id="DeleteAcc" tabindex="-1" aria-labelledby="eDeleteAccLabel" aria-hidden="true">
-                                            <div class="modal-dialog">
-                                            <div class="modal-content">
-                                                <div class="modal-header">
-                                                <h5 class="modal-title" id="DeleteAccLabel"><i class="bi bi-trash"style="color:red;"></i> Delete Account</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                                </div>
-                                                <div class="modal-body">
-                                                    Are you sure you want to Delete?
-                                                </div>
-                                                <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
-                                                <button type="button" class="btn btn-danger">Delete</button>
-                                                </div>
+        
+                            </div>
+                            <div class="d-flex align-items-end justify-content-end flex-column bd-highlight mb-3">
+                                <div class="p-2 bd-highlight">
+                                    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#DeleteAcc">
+                                        Delete Account
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                                <!-- Modal Delete account -->
+                                    <div class="modal fade " id="DeleteAcc" tabindex="-1" aria-labelledby="eDeleteAccLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="DeleteAccLabel"><i class="bi bi-trash"style="color:red;"></i> Delete Account</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
                                             </div>
+                                            <div class="modal-body">
+                                                Are you sure you want to Delete?
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+                                            <button type="button" class="btn btn-danger">Delete</button>
                                             </div>
                                         </div>
+                                        </div>
+                                    </div>
 
-                                </div>
-                                
-            
                             </div>
-            
+                            
+        
                         </div>
+        
                     </div>
-                    <!-- Settings -->
-                    
-                    
-                
-                
                 </div>
+                <!-- Settings -->
+                
+
             </div>
         </div>
         <!-- main -->
 
     </div>
     <!-- content profile -->
+
+
+
+        <!-- footer -->
+        <footer class="footer bg-dark text-white pt-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-4  col-sm-8 mb-3">
+                  <div class="logo">internFinder</div>
+                  <p class="mt-3">internFinder it is a web application intended 
+                    for people seeking internship and
+                    companies 
+                    looking for interns.
+                  </p>
+                </div>
+                <div class="col-md-3 col-sm-4 mb-3" >
+                  <h5>Links</h5>
+                  <ul class="Links list-unstyled">
+                    <li><a href="../../index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Research</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-3">
+                  <h5>Contact Us</h5>
+                  <ul class="Links list-unstyled ">
+                    <li><i class="bi bi-telephone-fill"></i> (+213)78578282</li>
+                    <li><i class="bi bi-envelope"></i> internFinder@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <h5>Follow us</h5>
+                  <ul class="media list-unstyled">
+                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="text-center text-muted">Copyright &copy; 2023 All Rights Reserved. Owned by intrenFinder.</div>
+        </footer>
+        <!-- footer -->
 
     <script type="text/javascript">
         $(function() {

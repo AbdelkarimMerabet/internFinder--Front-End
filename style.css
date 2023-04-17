@@ -279,11 +279,7 @@ footer .Links li a:hover{
 
     /* profile student */
     
-        .ProfileStudent {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr 1fr 1fr;   
-        }
+
 
         .ProfileStudent .ProfileStudent-nav{
             
@@ -382,6 +378,61 @@ footer .Links li a:hover{
         }
         .ProfileStudent .card-experiences .title{
             font-size: 20px;
+        }
+
+        .ProfileStudent .nav{
+            justify-content: center;
+            background-color: white;
+            box-shadow: 0 0px 0px rgb(0 0 0 / 0.2);
+        }
+        .ProfileStudent .tab-content{
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
+        }
+        .ProfileStudent .company .title{
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        
+        .ProfileStudent .company .media{
+            font-size: 30px;
+        }
+        .ProfileStudent .company .media li{
+            margin-right: 10px;
+        }
+        .ProfileStudent .company .Description{
+            border: 1px solid #dbdbdb;
+            border-radius: 7px;
+        }
+        .ProfileStudent .Offers .card-post{
+            border: 1px solid #dbdbdb;
+            padding-top: 7px;
+            padding-left: 20px;
+        }
+        .ProfileStudent .Requests .card-requests{
+            border: 1px solid #dbdbdb;
+            padding: 7px;
+        }
+        .btn-Add{
+            padding: 5px;
+            border-radius: 5px;
+            background-color: #FDBE34;
+            color: white;
+        
+        }
+        .btn-Add:hover{
+            color: white;
+            text-decoration: none;
+        }
+    
+        .ProfileStudent .fixed-size {
+            height: 200px !important;
+            width: 100%;
+        }
+        .ProfileStudent .changePhoto{
+            border-radius: 50%;
+            width: 150px;
         }
 
 
