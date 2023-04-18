@@ -185,44 +185,38 @@ footer .Links li a:hover{
 /* End rest password  */
 
 
-/* Start Form register */
-.Form-register{
+/********************** Start Form register ***********************/
+.Register .Form-register{
     margin: 40px;
     border-radius: 20px 0 0 20px  ;
     box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
     padding: 0 10px;
 }
-.Form-register .side{
+.Register .Form-register .first-content{
+    background-color: #0B409C;
+    border-radius: 20px 0 0 20px;
+    margin-right: 20px;
+}
+.Register .Form-register .first-content__text{
     color: white;
     padding-top: 120px;
     letter-spacing: 2px;
 }
-.Form-register .side2{
-    color: white;
-    padding-top: 120px;
-}
-.Form-register .logo{
+.Register .Form-register .logo{
     font-size: 30px;
     text-decoration: none;
-}
-
-.Form-register .logo a{
+}   
+.Register .Form-register .logo a{
     text-decoration: none;
 }
-.Form-register .logo :first-child{
+.Register .Form-register .logo :first-child{
     color: #0B409C;
 }
-.Form-register .logo :last-child{
+.Register .Form-register .logo :last-child{
     color: #FDBE34;
     font-weight: 700;
 }
-
-.Form-register .bg-img{
-    background-color: #0B409C;
-    border-radius: 20px 0 0 20px  ;
-    margin-right: 20px;
-}
-.Form-register .btn1{
+.Register .Form-register .item{
     padding: 20px 0 20px 5px ;
     width: 100%;
     background-color: #fff;
@@ -230,11 +224,58 @@ footer .Links li a:hover{
     border-radius: 10px;
     box-shadow: 0 0.5px 1px rgb(0 0 0 / 0.2);
 }
-.Form-register .btn1:hover{
+.Register .Form-register .item:hover{
     border: 1px solid #0B409C;
     background-color: #0b409c36;
 }
-.Form-register .btn2{
+.Register .Form-register a:hover{
+    text-decoration: none;
+}
+.Register .Form-register .icons{
+    font-size: 45px;
+    color: cornflowerblue;
+    margin-right: 10px;
+    margin-top: -6px;
+    margin-left: 10px;
+}
+/********************** End Form register ***********************/
+
+
+
+
+
+
+/********************* Start Form Register as student*************/
+.Register .Form-register-student{
+    margin: 40px;
+    border-radius: 20px 0 0 20px  ;
+    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+    padding: 0 10px;
+}
+.Register .Form-register-student .first-content{
+    background-color: #0B409C;
+    border-radius: 20px 0 0 20px;
+    margin-right: 20px;
+}
+.Register .Form-register-student .first-content__text{
+    color: white;
+    padding-top: 120px;
+}
+.Register .Form-register-student .logo{
+    font-size: 30px;
+    text-decoration: none;
+}   
+.Register .Form-register-student .logo a{
+    text-decoration: none;
+}
+.Register .Form-register-student .logo :first-child{
+    color: #0B409C;
+}
+.Register .Form-register-student .logo :last-child{
+    color: #FDBE34;
+    font-weight: 700;
+}
+.Register .Form-register-student .btn1{
     padding: 10px 0 10px 5px ;
     width: 100%;
     background-color: #0B409C;
@@ -242,37 +283,65 @@ footer .Links li a:hover{
     font-weight: bold;
     border-radius: 10px;
 }
-.Form-register .btn2:hover{
+.Register .Form-register-student .btn1:hover{
     background-color: #FDBE34;
 }
-.Form-register a:hover{
-    text-decoration: none;
-}
-.Form-register .icons{
-    font-size: 45px;
-    color: cornflowerblue;
-    margin-right: 10px;
-    margin-top: -6px;
-    margin-left: 10px;
-}
-.Form-register .media span{
+.Register .Form-register-student .media span{
     color: #616161;
 }
-
-
-
-/* End Form register */
-
-/* Start Form Register as student */
-.Register a{
+.Register .Form-register-student a:hover{
     text-decoration: none;
 }
-.Register a:hover{
-    text-decoration: none !important
+/********************* End Form Register as student*************/
+
+/********************* Start Form Register as company*************/
+.Register .Form-register-company{
+    margin: 40px;
+    border-radius: 20px 0 0 20px  ;
+    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+    padding: 0 10px;
 }
-
-/* End Form Register as student */
-
+.Register .Form-register-company .first-content{
+    background-color: #0B409C;
+    border-radius: 20px 0 0 20px;
+    margin-right: 20px;
+}
+.Register .Form-register-company .first-content__text{
+    color: white;
+    padding-top: 120px;
+}
+.Register .Form-register-company .logo{
+    font-size: 30px;
+    text-decoration: none;
+}   
+.Register .Form-register-company .logo a{
+    text-decoration: none;
+}
+.Register .Form-register-company .logo :first-child{
+    color: #0B409C;
+}
+.Register .Form-register-company .logo :last-child{
+    color: #FDBE34;
+    font-weight: 700;
+}
+.Register .Form-register-company .btn1{
+    padding: 10px 0 10px 5px ;
+    width: 100%;
+    background-color: #0B409C;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.Register .Form-register-company .btn1:hover{
+    background-color: #FDBE34;
+}
+.Register .Form-register-student .media span{
+    color: #616161;
+}
+.Register .Form-register-student a:hover{
+    text-decoration: none;
+}
+/********************* End Form Register as company *************/
 
 /* Home */
     /* header */
