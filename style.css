@@ -197,6 +197,10 @@ footer .Links li a:hover{
     padding-top: 120px;
     letter-spacing: 2px;
 }
+.Form-register .side2{
+    color: white;
+    padding-top: 120px;
+}
 .Form-register .logo{
     font-size: 30px;
     text-decoration: none;
@@ -229,6 +233,17 @@ footer .Links li a:hover{
 .Form-register .btn1:hover{
     border: 1px solid #0B409C;
     background-color: #0b409c36;
+}
+.Form-register .btn2{
+    padding: 10px 0 10px 5px ;
+    width: 100%;
+    background-color: #0B409C;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.Form-register .btn2:hover{
+    background-color: #FDBE34;
 }
 .Form-register a:hover{
     text-decoration: none;
