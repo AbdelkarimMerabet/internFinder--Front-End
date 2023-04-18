@@ -70,7 +70,7 @@ footer .Links li a:hover{
 
 /* End Logo  */
 
-/* .btn1{
+.btn1{
     border: none;
     outline: none;
     width: 100%;
@@ -81,10 +81,10 @@ footer .Links li a:hover{
     font-weight: bold;
 } */
 
-/* .btn1:hover{
+.btn1:hover{
     background-color: #FDBE34;
     color: white;
-} */
+}
 
 .btn2{
     border: none;
@@ -193,8 +193,8 @@ footer .Links li a:hover{
     padding: 0 10px;
 }
 .Form-register .side{
-    padding-top: 120px;
     color: white;
+    padding-top: 120px;
     letter-spacing: 2px;
 }
 .Form-register .logo{
@@ -213,9 +213,6 @@ footer .Links li a:hover{
     font-weight: 700;
 }
 
-.Form-register .Register{
-    font-size: 24px;
-}
 .Form-register .bg-img{
     background-color: #0B409C;
     border-radius: 20px 0 0 20px  ;
