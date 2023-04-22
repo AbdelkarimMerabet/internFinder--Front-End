@@ -1,619 +1,544 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    background-color: #F5F6F7;
+body {
+  background-color: #f5f6f7;
 }
-.nav-bar{
-    background-color: white;
-    box-shadow: 0 0.5px 3px rgb(0 0 0 / 0.2);
+.nav-bar {
+  background-color: white;
+  box-shadow: 0 0.5px 3px rgb(0 0 0 / 0.2);
 }
 /* footer */
-footer .media li{
-    float: left;
-    color: #050505;
-    font-size: 40px;
-    margin-right: 5px;
-    opacity: 0.7;
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
-
+footer .media li {
+  float: left;
+  color: #050505;
+  font-size: 40px;
+  margin-right: 5px;
+  opacity: 0.7;
+  -webkit-transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
-footer .media li:hover{
-    opacity: 1;
-    
+footer .media li:hover {
+  opacity: 1;
 }
-footer .media li a{
-    color: #ffffff;
-
+footer .media li a {
+  color: #ffffff;
 }
-footer .Links{
-    margin-top: 20px;
+footer .Links {
+  margin-top: 20px;
 }
-footer .Links li{
-    margin-top: 10px;
+footer .Links li {
+  margin-top: 10px;
 }
-footer .Links li a{
-    color: #ffffff;
-    text-decoration: none;
+footer .Links li a {
+  color: #ffffff;
+  text-decoration: none;
 }
-footer .Links li a:hover{
-    text-decoration: none;
+footer .Links li a:hover {
+  text-decoration: none;
 }
 /* footer */
 
 /* Strart logo  */
-.logo{
-    font-size: 30px;
-    text-decoration: none;
+.logo {
+  font-size: 30px;
+  text-decoration: none;
 }
-.logo a{
-    text-decoration: none;
+.logo a {
+  text-decoration: none;
 }
-.logo a:hover{
-    text-decoration: none !important
+.logo a:hover {
+  text-decoration: none !important;
 }
-.logo .first-child{
-    color: #0B409C;
-    display: inline;
+.logo .first-child {
+  color: #0b409c;
+  display: inline;
 }
-.logo .last-child{
-    color: #FDBE34;
-    font-weight: 700;
-    display: inline;
+.logo .last-child {
+  color: #fdbe34;
+  font-weight: 700;
+  display: inline;
 }
 
 /* End Logo  */
 
-.btn1{
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 10px;
-    background-color: #0B409C;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
-} */
-
-.btn1:hover{
-    background-color: #FDBE34;
-    color: white;
+.btn1 {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  background-color: #0b409c;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+*/ .btn1:hover {
+  background-color: #fdbe34;
+  color: white;
 }
 
-.btn2{
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 10px;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    font-weight: 500;
-    border: 0.5px rgb(207, 207, 207) solid;
+.btn2 {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: 500;
+  border: 0.5px rgb(207, 207, 207) solid;
 }
 
-.btn2:hover{
-    background-color: #FDBE34;
-    color: white;
+.btn2:hover {
+  background-color: #fdbe34;
+  color: white;
 }
 
 /* Start Form login */
-.Form-login .logo{
-    font-size: 30px;
-    margin-left: 85px;
-    text-decoration: none;
+.Form-login .logo {
+  font-size: 30px;
+  margin-left: 85px;
+  text-decoration: none;
 }
 
-.Form-login .logo a{
-    text-decoration: none;
+.Form-login .logo a {
+  text-decoration: none;
 }
-.Form-login .logo :first-child{
-    color: #0B409C;
+.Form-login .logo :first-child {
+  color: #0b409c;
 }
-.Form-login .logo :last-child{
-    color: #FDBE34;
-    font-weight: 700;
-}
-
-.Form-login .login{
-    font-size: 24px;
+.Form-login .logo :last-child {
+  color: #fdbe34;
+  font-weight: 700;
 }
 
-.Form-login .btn1{
-    border: none;
-    outline: none;
-    height: 50px;
-    width: 100%;
-    background-color: #0B409C;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
+.Form-login .login {
+  font-size: 24px;
 }
 
-.Form-login .btn1:hover{
-    background-color: #FDBE34;
-    color: white;
+.Form-login .btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #0b409c;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Form-login .btn1:hover {
+  background-color: #fdbe34;
+  color: white;
 }
 
 /* End Form login */
 
-
 /* Start rest password  */
-.Form-reset-password .logo{
-    font-size: 35px;
-    margin-left: 85px;
+.Form-reset-password .logo {
+  font-size: 35px;
+  margin-left: 85px;
 }
-.Form-reset-password .logo a{
-    text-decoration: none;
+.Form-reset-password .logo a {
+  text-decoration: none;
 }
-.Form-reset-password .logo :first-child{
-    color: #0B409C;
+.Form-reset-password .logo :first-child {
+  color: #0b409c;
 }
-.Form-reset-password .logo :last-child{
-    color: #FDBE34;
-    font-weight: 700;
+.Form-reset-password .logo :last-child {
+  color: #fdbe34;
+  font-weight: 700;
 }
-.Form-reset-password .title{
-    font-size: 35px;
-    color: #0B409C;
+.Form-reset-password .title {
+  font-size: 35px;
+  color: #0b409c;
 }
-.Form-reset-password .paragraph{
-    font-size: 15px;
-    padding-top: 20px;
+.Form-reset-password .paragraph {
+  font-size: 15px;
+  padding-top: 20px;
 }
-.Form-reset-password .btn1{
-    border: none;
-    outline: none;
-    height: 50px;
-    width: 100%;
-    background-color: #0B409C;
-    color: white;
-    border-radius: 5px;
-    font-weight: bold;
+.Form-reset-password .btn1 {
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  background-color: #0b409c;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-.Form-reset-password .btn1:hover{
-    background-color: #FDBE34;
-    color: white;
+.Form-reset-password .btn1:hover {
+  background-color: #fdbe34;
+  color: white;
 }
 /* End rest password  */
 
-
 /********************** Start Form register ***********************/
-.Register .Form-register{
-    margin: 40px;
-    border-radius: 20px 0 0 20px  ;
-    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
-    padding: 0 10px;
+.Register .Form-register {
+  margin: 40px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+  padding: 0 10px;
 }
-.Register .Form-register .first-content{
-    background-color: #0B409C;
-    border-radius: 20px 0 0 20px;
-    margin-right: 20px;
+.Register .Form-register .first-content {
+  background-color: #0b409c;
+  border-radius: 20px 0 0 20px;
+  margin-right: 20px;
 }
-.Register .Form-register .first-content__text{
-    color: white;
-    padding-top: 120px;
-    letter-spacing: 2px;
+.Register .Form-register .first-content__text {
+  color: white;
+  padding-top: 120px;
+  letter-spacing: 2px;
 }
-.Register .Form-register .logo{
-    font-size: 30px;
-    text-decoration: none;
-}   
-.Register .Form-register .logo a{
-    text-decoration: none;
+.Register .Form-register .logo {
+  font-size: 30px;
+  text-decoration: none;
 }
-.Register .Form-register .logo :first-child{
-    color: #0B409C;
+.Register .Form-register .logo a {
+  text-decoration: none;
 }
-.Register .Form-register .logo :last-child{
-    color: #FDBE34;
-    font-weight: 700;
+.Register .Form-register .logo :first-child {
+  color: #0b409c;
 }
-.Register .Form-register .item{
-    padding: 20px 0 20px 5px ;
-    width: 100%;
-    background-color: #fff;
-    color: black;
-    border-radius: 10px;
-    box-shadow: 0 0.5px 1px rgb(0 0 0 / 0.2);
+.Register .Form-register .logo :last-child {
+  color: #fdbe34;
+  font-weight: 700;
 }
-.Register .Form-register .item:hover{
-    border: 1px solid #0B409C;
-    background-color: #0b409c36;
+.Register .Form-register .item {
+  padding: 20px 0 20px 5px;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 0.5px 1px rgb(0 0 0 / 0.2);
 }
-.Register .Form-register a:hover{
-    text-decoration: none;
+.Register .Form-register .item:hover {
+  border: 1px solid #0b409c;
+  background-color: #0b409c36;
 }
-.Register .Form-register .icons{
-    font-size: 45px;
-    color: cornflowerblue;
-    margin-right: 10px;
-    margin-top: -6px;
-    margin-left: 10px;
+.Register .Form-register a:hover {
+  text-decoration: none;
+}
+.Register .Form-register .icons {
+  font-size: 45px;
+  color: cornflowerblue;
+  margin-right: 10px;
+  margin-top: -6px;
+  margin-left: 10px;
 }
 /********************** End Form register ***********************/
 
-
-
-
-
-
 /********************* Start Form Register as student*************/
-.Register .Form-register-student{
-    margin: 40px;
-    border-radius: 20px 0 0 20px  ;
-    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
-    padding: 0 10px;
+.Register .Form-register-student {
+  margin: 40px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+  padding: 0 10px;
 }
-.Register .Form-register-student .first-content{
-    background-color: #0B409C;
-    border-radius: 20px 0 0 20px;
-    margin-right: 20px;
+.Register .Form-register-student .first-content {
+  background-color: #0b409c;
+  border-radius: 20px 0 0 20px;
+  margin-right: 20px;
 }
-.Register .Form-register-student .first-content__text{
-    color: white;
-    padding-top: 120px;
+.Register .Form-register-student .first-content__text {
+  color: white;
+  padding-top: 120px;
 }
-.Register .Form-register-student .logo{
-    font-size: 30px;
-    text-decoration: none;
-}   
-.Register .Form-register-student .logo a{
-    text-decoration: none;
+.Register .Form-register-student .logo {
+  font-size: 30px;
+  text-decoration: none;
 }
-.Register .Form-register-student .logo :first-child{
-    color: #0B409C;
+.Register .Form-register-student .logo a {
+  text-decoration: none;
 }
-.Register .Form-register-student .logo :last-child{
-    color: #FDBE34;
-    font-weight: 700;
+.Register .Form-register-student .logo :first-child {
+  color: #0b409c;
 }
-.Register .Form-register-student .btn1{
-    padding: 10px 0 10px 5px ;
-    width: 100%;
-    background-color: #0B409C;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
+.Register .Form-register-student .logo :last-child {
+  color: #fdbe34;
+  font-weight: 700;
 }
-.Register .Form-register-student .btn1:hover{
-    background-color: #FDBE34;
+.Register .Form-register-student .btn1 {
+  padding: 10px 0 10px 5px;
+  width: 100%;
+  background-color: #0b409c;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
 }
-.Register .Form-register-student .media span{
-    color: #616161;
+.Register .Form-register-student .btn1:hover {
+  background-color: #fdbe34;
 }
-.Register .Form-register-student a:hover{
-    text-decoration: none;
+.Register .Form-register-student .media span {
+  color: #616161;
+}
+.Register .Form-register-student a:hover {
+  text-decoration: none;
 }
 /********************* End Form Register as student*************/
 
 /********************* Start Form Register as company*************/
-.Register .Form-register-company{
-    margin: 40px;
-    border-radius: 20px 0 0 20px  ;
-    box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
-    padding: 0 10px;
+.Register .Form-register-company {
+  margin: 40px;
+  border-radius: 20px 0 0 20px;
+  box-shadow: 0 7px 7px rgb(0 0 0 / 0.2);
+  padding: 0 10px;
 }
-.Register .Form-register-company .first-content{
-    background-color: #0B409C;
-    border-radius: 20px 0 0 20px;
-    margin-right: 20px;
+.Register .Form-register-company .first-content {
+  background-color: #0b409c;
+  border-radius: 20px 0 0 20px;
+  margin-right: 20px;
 }
-.Register .Form-register-company .first-content__text{
-    color: white;
-    padding-top: 120px;
+.Register .Form-register-company .first-content__text {
+  color: white;
+  padding-top: 120px;
 }
-.Register .Form-register-company .logo{
-    font-size: 30px;
-    text-decoration: none;
-}   
-.Register .Form-register-company .logo a{
-    text-decoration: none;
+.Register .Form-register-company .logo {
+  font-size: 30px;
+  text-decoration: none;
 }
-.Register .Form-register-company .logo :first-child{
-    color: #0B409C;
+.Register .Form-register-company .logo a {
+  text-decoration: none;
 }
-.Register .Form-register-company .logo :last-child{
-    color: #FDBE34;
-    font-weight: 700;
+.Register .Form-register-company .logo :first-child {
+  color: #0b409c;
 }
-.Register .Form-register-company .btn1{
-    padding: 10px 0 10px 5px ;
-    width: 100%;
-    background-color: #0B409C;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
+.Register .Form-register-company .logo :last-child {
+  color: #fdbe34;
+  font-weight: 700;
 }
-.Register .Form-register-company .btn1:hover{
-    background-color: #FDBE34;
+.Register .Form-register-company .btn1 {
+  padding: 10px 0 10px 5px;
+  width: 100%;
+  background-color: #0b409c;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
 }
-.Register .Form-register-student .media span{
-    color: #616161;
+.Register .Form-register-company .btn1:hover {
+  background-color: #fdbe34;
 }
-.Register .Form-register-student a:hover{
-    text-decoration: none;
+.Register .Form-register-student .media span {
+  color: #616161;
+}
+.Register .Form-register-student a:hover {
+  text-decoration: none;
 }
 /********************* End Form Register as company *************/
 
 /* Home */
-    /* header */
-        .header{
-            background-color: #fdbd3425;
-            height: 540px;
-        }
-        .header .title{
-            font-size: 60px
-        }
-    /* header */
+/* header */
+.header {
+  background-color: #fdbd3425;
+  height: 540px;
+}
+.header .title {
+  font-size: 60px;
+}
+/* header */
 
-    /* category */
-        .Category a{
-            color: black;
-            text-decoration: none;
-        }
+/* category */
+.Category a {
+  color: black;
+  text-decoration: none;
+}
 
-    /* category */
+/* category */
 
-    /* Available internships */
-    .internshipDisp{
-        background-color: #e2edff;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    .internshipDisp .card-post{
-        background-color: white;
-        border-radius: 20px;
-        border: 1px solid rgb(224, 224, 224);
-    }
-    .internshipDisp a{
-        text-decoration: none;
-    }
-    /* Available internships */
+/* Available internships */
+.internshipDisp {
+  background-color: #e2edff;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.internshipDisp .card-post {
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid rgb(224, 224, 224);
+}
+.internshipDisp a {
+  text-decoration: none;
+}
+/* Available internships */
 
 /* Home */
 
+/********************* profile *************************/
+/********************* profile student *************/
 
-/* profile */
+.Profile .Profile-student {
+  border: 1px solid #d6d6d6;
+  background-color: white;
+  margin-bottom: 40px;
+}
+.Profile .Profile-student .first-content .subheader {
+  padding-left: 10px;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1rem;
+}
+.Profile .Profile-student .first-content .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: rgb(0, 0, 0);
+  background-color: #e7f3ff;
+}
 
-    /* profile student */
-    
+.Profile .Profile-student .second-content {
+  border-left: 1px solid #d6d6d6;
+  background-color: white;
+  padding: 0 20px;
+  min-height: 800px;
+}
 
+.Profile .Profile-student .second-content .myAccount .General .file {
+  position: relative;
+  overflow: hidden;
+  margin-top: -70px;
+  width: 150px;
+  border: none;
+  border-radius: 0;
+  font-size: 15px;
+  background: #212529b8;
+}
+.Profile .Profile-student .second-content .myAccount .General .file input {
+  position: absolute;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
 
-        .ProfileStudent .ProfileStudent-nav{
-            
-            width: 320px;
-            border: 1px solid #d1d0d0;
-            border-radius: 6px;
-            grid-column-start: 1;
-            grid-column-end: 2;
-            grid-row-start: 1;
-            grid-row-end: 4;
-            display: flex;
-            flex-direction: column;
-            background-color: rgb(255, 255, 255);
-            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-        }
-        .ProfileStudent .ProfileStudent-content{
-            border: 1px solid #bebebe;
-            border-radius: 5px;
-            margin-top: 20px;
-            padding: 20px;
-            background-color: white;
-            align-self: center;
-            grid-column-start: 2;
-            grid-column-end: 4;
-            grid-row-start: 1;
-            grid-row-end: 4;  
-        }
+.Profile .Profile-student .second-content .myAccount .skills-Lang__selected {
+  padding: 5px;
+  background-color: #d9e6f0;
+  width: auto;
+  border-radius: 10px;
+}
 
-        .ProfileStudent a{
-            color: black;
-        }
-        .ProfileStudent a:hover{
-            background-color: #d1d0d0;
-        }
-        .ProfileStudent a:active{
-            color: #0B409C;
-        }
-        .ProfileStudent .profile-image{
-            border-radius: 50%;
-            width: 50px;
-        }
-        .ProfileStudent .changePhoto{
-            border-radius: 50%;
-            width: 150px;
-        }
-        
-        .profile-img .file {
-            position: relative;
-            overflow: hidden;
-            margin-top: -70px;
-            width: 150px;
-            border: none;
-            border-radius: 0;
-            font-size: 15px;
-            background: #212529b8;
-        }
-        .profile-img .file input {
-            position: absolute;
-            opacity: 0;
-            right: 0;
-            top: 0;
-        }
+.Profile .Profile-student .second-content .myAccount .fixed-size__Description {
+  height: 110px !important;
+  width: 100%;
+}
 
-            
-        .ProfileStudent .selected{
-            padding: 5px;
-            background-color: #d9e6f0;
-            width: auto;
-            border-radius: 10px;
+.Profile
+  .Profile-student
+  .second-content
+  .myAccount
+  .Education
+  .card-education {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+  margin-bottom: 20px;
+}
 
-        }
-        
-        .ProfileStudent .fixed-size {
-            height: 110px !important;
-            width: 100%;
-        }
+.Profile
+  .Profile-student
+  .second-content
+  .myAccount
+  .Education
+  .card-education
+  .title {
+  font-size: 20px;
+}
 
-        .ProfileStudent .card-education{
-            width: 100%;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
-            padding: 5px;
-            margin-bottom: 20px;
-        }
+.Profile
+  .Profile-student
+  .second-content
+  .myAccount
+  .Experiences
+  .card-experiences {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.Profile
+  .Profile-student
+  .second-content
+  .myAccount
+  .Experiences
+  .card-experiences
+  .title {
+  font-size: 20px;
+}
 
-        .ProfileStudent .card-education .title{
-            font-size: 20px;
-        }
+/********************* profile student *************************/
 
-        .ProfileStudent .card-experiences{
-            width: 100%;
-            border-radius: 5px;
-            border: 1px solid #dbdbdb;
-            padding: 5px;
-            margin-bottom: 20px;
-        }
-        .ProfileStudent .card-experiences .title{
-            font-size: 20px;
-        }
+/********************* profile company *************************/
+.profileCompany .nav {
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0px 0px rgb(0 0 0 / 0.2);
+}
+.profileCompany .tab-content {
+  background-color: #ffffff;
+  padding: 15px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
+}
+.profileCompany .company .title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
 
-        .ProfileStudent .nav{
-            justify-content: center;
-            background-color: white;
-            box-shadow: 0 0px 0px rgb(0 0 0 / 0.2);
-        }
-        .ProfileStudent .tab-content{
-            background-color: #ffffff;
-            padding: 15px;
-            box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
-        }
-        .ProfileStudent .company .title{
-            margin-bottom: 20px;
-            font-size: 30px;
-        }
-        
-        .ProfileStudent .company .media{
-            font-size: 30px;
-        }
-        .ProfileStudent .company .media li{
-            margin-right: 10px;
-        }
-        .ProfileStudent .company .Description{
-            border: 1px solid #dbdbdb;
-            border-radius: 7px;
-        }
-        .ProfileStudent .Offers .card-post{
-            border: 1px solid #dbdbdb;
-            padding-top: 7px;
-            padding-left: 20px;
-        }
-        .ProfileStudent .Requests .card-requests{
-            border: 1px solid #dbdbdb;
-            padding: 7px;
-        }
-        .btn-Add{
-            padding: 5px;
-            border-radius: 5px;
-            background-color: #FDBE34;
-            color: white;
-        
-        }
-        .btn-Add:hover{
-            color: white;
-            text-decoration: none;
-        }
-    
-        .ProfileStudent .fixed-size {
-            height: 200px !important;
-            width: 100%;
-        }
-        .ProfileStudent .changePhoto{
-            border-radius: 50%;
-            width: 150px;
-        }
+.profileCompany .company .media {
+  font-size: 30px;
+}
+.profileCompany .company .media li {
+  margin-right: 10px;
+}
+.profileCompany .company .Description {
+  border: 1px solid #dbdbdb;
+  border-radius: 7px;
+}
+.profileCompany .Offers .card-post {
+  border: 1px solid #dbdbdb;
+  padding-top: 7px;
+  padding-left: 20px;
+}
+.profileCompany .Requests .card-requests {
+  border: 1px solid #dbdbdb;
+  padding: 7px;
+}
+.btn-Add {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #fdbe34;
+  color: white;
+}
+.btn-Add:hover {
+  color: white;
+  text-decoration: none;
+}
 
+.profileCompany .fixed-size {
+  height: 200px !important;
+  width: 100%;
+}
+.profileCompany .changePhoto {
+  border-radius: 50%;
+  width: 150px;
+}
+/********************* profile company *************************/
 
-    /* profile student */
-
-    /* profile company */
-    .profileCompany .nav{
-        justify-content: center;
-        background-color: white;
-        box-shadow: 0 0px 0px rgb(0 0 0 / 0.2);
-    }
-    .profileCompany .tab-content{
-        background-color: #ffffff;
-        padding: 15px;
-        box-shadow: 0 1px 1px rgb(0 0 0 / 0.2);
-    }
-    .profileCompany .company .title{
-        margin-bottom: 20px;
-        font-size: 30px;
-    }
-    
-    .profileCompany .company .media{
-        font-size: 30px;
-    }
-    .profileCompany .company .media li{
-        margin-right: 10px;
-    }
-    .profileCompany .company .Description{
-        border: 1px solid #dbdbdb;
-        border-radius: 7px;
-    }
-    .profileCompany .Offers .card-post{
-        border: 1px solid #dbdbdb;
-        padding-top: 7px;
-        padding-left: 20px;
-    }
-    .profileCompany .Requests .card-requests{
-        border: 1px solid #dbdbdb;
-        padding: 7px;
-    }
-    .btn-Add{
-        padding: 5px;
-        border-radius: 5px;
-        background-color: #FDBE34;
-        color: white;
-    
-    }
-    .btn-Add:hover{
-        color: white;
-        text-decoration: none;
-    }
-
-    .profileCompany .fixed-size {
-        height: 200px !important;
-        width: 100%;
-    }
-    .profileCompany .changePhoto{
-        border-radius: 50%;
-        width: 150px;
-    }
-    /* profile company */
-
-
-
-/* profile */
-
+/********************* profile *************************/
 
 @media (max-width: 768px) {
-    .ProfileStudent {
+  .ProfileStudent {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+  }
 
-.ProfileStudent .ProfileStudent-nav{
+  .ProfileStudent .ProfileStudent-nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -622,20 +547,16 @@ footer .Links li a:hover{
     height: 60px;
     border: 1px solid #d1d0d0;
     border-radius: 6px;
-}
-.ProfileStudent .ProfileStudent-nav .icons{
+  }
+  .ProfileStudent .ProfileStudent-nav .icons {
     font-size: 25px;
-}
-.ProfileStudent .ProfileStudent-content{
+  }
+  .ProfileStudent .ProfileStudent-content {
     border: 1px solid #bebebe;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-}
-.title-nav{
+  }
+  .title-nav {
     display: none;
+  }
 }
-
-}
-
-
-
