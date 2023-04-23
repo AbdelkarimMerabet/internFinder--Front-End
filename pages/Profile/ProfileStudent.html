@@ -29,6 +29,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <link rel="stylesheet" href="../../style.css">
+
+        <link rel="stylesheet" href="../../model.css">
         
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         
@@ -57,12 +59,12 @@
         </div>
     </div>
     <!----------------------------------- nav-bar ------------------------------>
-    <section class="Profile">
+    <section class="profile">
         <div class="container">
           <h5 class="my-4">
             Account Settings
           </h5>
-          <div class="Profile-student">
+          <div class="profile-student">
                 <div class="row">
                     <!----------------------------- first-content ----------------------------->  
                     <div class="col-3 ">
@@ -99,119 +101,205 @@
                                 <hr>
                                 <!-- General informations -->
                                 <div class="General">
-                                    <h5>Profile Details</h5>
-                                    <div class="profile-img ">
-                                    <div class="pb-1">
-                                        <img src="../../images/PhotoProfile.jpg" width="150px" class="img-fluid rounded-circle">
+                                    <div class="header-profile">
+                                        <div class="d-flex justify-content-between">
+                                            <div class="title-header">
+                                                <h5>
+                                                    Profile Details
+                                                </h5>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-edit-information">
+                                                <i class="bi bi-pencil-fill"></i> Edit
+                                            </button>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="profile-img pb-1 ">
+                                                        <img src="../../images/PhotoProfile.jpg" width="150px" class="img-fluid rounded-circle"> 
+                                                </div>
+                                                <div class="file btn btn-lg btn-primary">
+                                                    Change Photo
+                                                    <input type="file" name="file"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-9">
+                                               <div class="profile-info">
+                                                    <h5><i class="bi bi-person-circle"></i> Merabet Abdelkarim</h5>
+                                                    <h5><i class="bi bi-geo-alt"></i> Chlef,Chlef</h5>
+                                                    <h5><i class="bi bi-envelope"></i> merabet.abdelkarim@gmail.com</h5>
+                                                    <h5><i class="bi bi-telephone"></i> 0778578282</h5>
+                                               </div> 
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="file btn btn-lg btn-primary">
-                                        Change Photo
-                                    <input type="file" name="file"/>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                <div class="col-md-6">
-                                    <label >First name </label>
-                                    <input type="text" value="Abdelkarim" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label >Last name </label>
-                                    <input type="text" value="Merabet" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Email address</label>
-                                    <input type="email" value="merabet@gmail.com" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Number phone</label>
-                                    <input type="text" value="0778578282" class="form-control">
-                                </div>
-            
-                                <div class="col-md-6">
-                                    <label>Gender</label>
-                                    <select class="custom-select" id="inputGroupSelect01">
-                                        <option selected disabled hidden>Choose...</option>
-                                        <option value="1">male</option>
-                                        <option value="2">female</option>
-                                    </select>
-                                </div>
-                                <div class="col-sm-6 " style="margin-top: -7px;">
-                                    <label for="StartDate" class=" col-form-label">Date of birth</label>
-                                    <input type="text" id="dateBirth" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>State</label>
-                                    <input type="text" value="Chlef" class="form-control">
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Municipal</label>
-                                    <input type="text" value="Chlef" class="form-control">
-                                </div>
-                                
-                            </div>
-                                <div class="d-flex align-items-end flex-column bd-highlight mt-3 ">
-                                    <div class="p-2 bd-highlight">
-                                        <button type="button" class="btn btn-success">
-                                        Save
-                                        </button>
-                                    </div>
+                                    
+                                    
                                 </div>
                                 </div>
                                 <!-- General informations -->   
-                                <hr>
+
+                                <!-- Modal Edit Information Profile -->
+                                <div class="modal fade" id="modal-edit-information" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">
+                                            Edit Information
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                                <form>  
+                                                    <div class="row form-group">
+                                                        <div class="col-sm-12 col-md-6 ">
+                                                            <label >First Name </label>
+                                                            <input type="text" value="Abdelkarim" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <label >Last Name </label>
+                                                            <input type="text" value="Merabet" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <label>Email Address</label>
+                                                            <input type="email" value="merabet@gmail.com" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <label>Phone</label>
+                                                            <input type="text" value="0778578282" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <label>State</label>
+                                                            <input type="text" value="Chlef" class="form-control">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <label>City</label>
+                                                            <input type="text" value="Chlef" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            
+                                            
+                                        </div>
+                                        <div class="modal-footer text-center">
+                                            <button type="button" data-dismiss="modal" aria-label="Close" class="btn btn-secondary mr-2">
+                                                Cancel
+                                            </button>
+                                            <button type="button" class="btn btn-success">
+                                                Update
+                                            </button>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <!-- Modal Edit Information Profile -->
+                                
                                 <!-- Education -->
-                                <div class="Education">
+                                <div class="education">
                                     <div class="d-flex justify-content-between">
                                         <h5>Education</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalEducation">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add-education">
                                             <i class="bi bi-plus-lg"></i> Add
                                         </button>
                                     </div>
                                     <!-- 2 exemple card-education -->
                                     <div class="d-flex  flex-column bd-highlight mt-3 mb-3 ">
-                                        <div class="card-education">
+                                        <div class="card p-3 mb-2">
                                             <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                                <div class="title">Licence</div>
-                                                <div>
-                                                    <button class="btn btn-outline-danger">
-                                                        <i class="bi bi-x-lg" ></i>
-                                                    </button>
-                                                    <button class="btn btn-outline-success">
+                                                <div class="title">
+                                                    <h5 class="card-title">
+                                                        <i class="bi bi-mortarboard"></i>
+                                                        Master,Informatique
+                                                    </h5>
+                                                </div>
+                                                <div class="action">
+                                                    <!-- <button class="btn btn-outline-danger">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        Delete
+                                                    </button> -->
+                                                    <!-- <button class="btn btn-outline-secondary">
                                                         <i class="bi bi-pencil-fill" ></i>
-                                                    </button>
-                                                </div>
-                                                
-                                            </div>
-                                            <hr>
-                                            <div>hassiba benbouali  of chlef</div>
-                                            <div>Informatique</div>
-                                            <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
-                                            </div>
-                                        </div> 
-                                        <div class="card-education">
-                                            <div  class="d-flex justify-content-between flex-row bd-highlight ">  
-                                                <div class="title">Licence</div>
-                                                <div>
+                                                        
+                                                    </button> -->
                                                     <button class="btn btn-outline-danger">
-                                                        <i class="bi bi-x-lg" ></i>
+                                                        <i class="bi bi-trash3-fill"></i>
                                                     </button>
-                                                    <button class="btn btn-outline-success">
-                                                        <i class="bi bi-pencil-fill" ></i></i>
-                                                    </spin>
+                                                    <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modal-edit-education">
+                                                    <i class="bi bi-pencil-fill" ></i> 
+                                                    </button>
                                                 </div>
-                                                
                                             </div>
-                                            <hr>
-                                            <div>hassiba benbouali  of chlef</div>
-                                            <div>Informatique</div>
-                                            <div ><i class="bi bi-calendar"></i> 9/1/2018-6/1/2021
+                                            
+                                            <div>
+                                                <h6 class="card-subtitle mb-2 text-muted text-capitalize">
+                                                    <i class="bi bi-building"></i>
+                                                    hassiba benbouali  of chlef
+                                                </h6>
+                                            </div>
+                                            <div >
+                                                <i class="bi bi-calendar-check bi-2x"></i>
+                                                  9/1/2018-6/1/2021
+                                            </div>
+                                            <div>
+                                                <p class="card-text">In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</p>
                                             </div>
                                         </div>
+
+                                        <div class="card p-3 mb-2">
+                                            <div  class="d-flex justify-content-between flex-row bd-highlight ">  
+                                                <div class="title">
+                                                    <h5 class="card-title">
+                                                        <i class="bi bi-mortarboard"></i>
+                                                        Master,Informatique
+                                                    </h5>
+                                                </div>
+                                                <div class="action">
+                                                    <!-- <button class="btn btn-outline-danger">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                        Delete
+                                                    </button> -->
+                                                    <!-- <button class="btn btn-outline-secondary">
+                                                        <i class="bi bi-pencil-fill" ></i>
+                                                        
+                                                    </button> -->
+                                                    <button class="btn btn-outline-danger">
+                                                        <i class="bi bi-trash3-fill"></i>
+                                                    </button>
+                                                    <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#modal-edit-education">
+                                                    <i class="bi bi-pencil-fill" ></i> 
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            
+                                            <div>
+                                                <h6 class="card-subtitle mb-2 text-muted text-capitalize">
+                                                    <i class="bi bi-building"></i>
+                                                    hassiba benbouali  of chlef
+                                                </h6>
+                                            </div>
+                                            <div >
+                                                <i class="bi bi-calendar-check bi-2x"></i>
+                                                  9/1/2018-6/1/2021
+                                            </div>
+                                            <div>
+                                                <p class="card-text">In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</p>
+                                            </div>
+                                        </div>
+
+                                        
+
+                                        
+                                        
+                                        
+                                        
                                     </div>
                                     <!-- 2 exemple card-education -->
-            
+                                    
+
+
                                     <!-- Modal Education -->
-                                    <div class="modal fade" id="ModalEducation" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
+                                    <div class="modal fade" id="modal-add-education" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
                                         <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
                                             <div class="modal-header">
@@ -268,12 +356,86 @@
                                                 
                                             </div>
                                             <div class="modal-footer text-center">
+                                            <button type="button" class="btn btn-secondary mr-2" data-dismiss="modal" aria-label="Close">
+                                                Cancel
+                                            </button>
                                             <button type="button" class="btn btn-primary">Add</button>
                                             </div>
                                         </div>
                                         </div>
                                     </div>
                                     <!-- Modal Education -->
+
+                                    <!-- Start Modal Edit Education -->
+                                    <div class="modal fade" id="modal-edit-education" tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered  modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Edit a Education</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                    <form>  
+                                                        <div class="row form-group">
+                                                            
+                                                                <div class="col-sm-12 col-md-2">
+                                                                    <label>Degre</label>
+                                                                    <select class="custom-select" id="inputGroupSelectDegre">
+                                                                <option selected>Licence</option>
+                                                                <option value="1">Master</option>
+                                                                <option value="2">PHD</option>
+                                                                <option value="1">L1</option>
+                                                                <option value="2">L2</option>
+                                                                <option value="1">L3</option>
+                                                                <option value="2">BAC</option>
+                                                                <option value="1">CFPS</option>
+                                                                <option value="2">CAP</option>
+                                                                <option selected>CMP</option>
+                                                                <option value="1">BT</option>
+                                                                <option value="2">TS</option>
+                                                                    </select>
+                                                                    </div>
+                                                                <div class="col-sm-12 col-md-5 ">
+                                                                    <label>School</label>
+                                                                    <input type="text" class="form-control text-capitalize" value="hassiba benbouali of chlef " id="inputGroupDegre">
+                                                                    </div>
+                                                                <div class="col-sm-12 col-md-5">
+                                                                        <label>Speciality</label>
+                                                                        <input type="text" class="form-control" value="Informatique" id="inputGroupDegre">
+                                                                    </div>
+                                                                <div class="col-sm-6 col-md-6">
+                                                                    <label for="StartDate" class=" col-form-label">Start Date </label>
+                                                                    <input value="08/08/2018" type="text" id="StartDateEducation" class="form-control">
+                                                                </div>
+                                                                <div class="col-sm-6 col-md-6">
+                                                                    <label for="EndDate" class="col-form-label">End Date</label>
+                                                                    <input value="02/02/2022" type="text" id="EndDateEducation" class="form-control">
+                                                                </div>
+                                                                <div class="col-sm-12">
+                                                                <label for="">Description</label>
+                                                                <textarea  oninput="limitWords(event)"  class="form-control fixed-size__Description" onkeypress="return imposeMaxLength(this, 100);" id="comment">In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea>
+                                                                </div>
+                                                                
+                                                                </div>
+                                                                </form>
+                                                
+                                                
+                                            </div>
+                                            <div class="modal-footer text-center">
+                                            <button type="button" class="btn btn-secondary mr-2" data-dismiss="modal" aria-label="Close">
+                                                Cancel
+                                            </button>
+                                            <button type="button" class="btn btn-success">
+                                                Update
+                                            </button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Modal Edit Education -->
+
                                 </div>
                                 <!-- Education -->
                                 <hr>

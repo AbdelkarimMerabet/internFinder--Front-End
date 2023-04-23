@@ -370,34 +370,34 @@ footer .Links li a:hover {
 /* Home */
 
 /********************* profile *************************/
-/********************* profile student *************/
+/********************* profile student *****************/
 
-.Profile .Profile-student {
+.profile .profile-student {
   border: 1px solid #d6d6d6;
   background-color: white;
   margin-bottom: 40px;
 }
-.Profile .Profile-student .first-content .subheader {
+.profile .profile-student .first-content .subheader {
   padding-left: 10px;
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   line-height: 1rem;
 }
-.Profile .Profile-student .first-content .nav-pills .nav-link.active,
+.profile .profile-student.first-content .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: rgb(0, 0, 0);
   background-color: #e7f3ff;
 }
 
-.Profile .Profile-student .second-content {
+.profile .profile-student .second-content {
   border-left: 1px solid #d6d6d6;
   background-color: white;
   padding: 0 20px;
   min-height: 800px;
 }
 
-.Profile .Profile-student .second-content .myAccount .General .file {
+.profile .profile-student .second-content .myAccount .General .file {
   position: relative;
   overflow: hidden;
   margin-top: -70px;
@@ -407,30 +407,29 @@ footer .Links li a:hover {
   font-size: 15px;
   background: #212529b8;
 }
-.Profile .Profile-student .second-content .myAccount .General .file input {
+.profile .profile-student .second-content .myAccount .General .file input {
   position: absolute;
   opacity: 0;
   right: 0;
   top: 0;
 }
 
-.Profile .Profile-student .second-content .myAccount .skills-Lang__selected {
+.profile .profile-student .second-content .myAccount .skills-Lang__selected {
   padding: 5px;
   background-color: #d9e6f0;
   width: auto;
   border-radius: 10px;
 }
 
-.Profile .Profile-student .second-content .myAccount .fixed-size__Description {
+.profile .profile-student .second-content .myAccount .fixed-size__Description {
   height: 110px !important;
   width: 100%;
 }
 
-.Profile
-  .Profile-student
+.profile .profile-student
   .second-content
   .myAccount
-  .Education
+  .education
   .card-education {
   width: 100%;
   border-radius: 5px;
@@ -439,18 +438,17 @@ footer .Links li a:hover {
   margin-bottom: 20px;
 }
 
-.Profile
-  .Profile-student
+.profile .profile-student
   .second-content
   .myAccount
   .Education
   .card-education
   .title {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.Profile
-  .Profile-student
+.profile .profile-student
   .second-content
   .myAccount
   .Experiences
@@ -461,8 +459,7 @@ footer .Links li a:hover {
   padding: 5px;
   margin-bottom: 20px;
 }
-.Profile
-  .Profile-student
+.profile .profile-student
   .second-content
   .myAccount
   .Experiences
