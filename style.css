@@ -426,47 +426,7 @@ footer .Links li a:hover {
   width: 100%;
 }
 
-.profile .profile-student
-  .second-content
-  .myAccount
-  .education
-  .card-education {
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #dbdbdb;
-  padding: 5px;
-  margin-bottom: 20px;
-}
 
-.profile .profile-student
-  .second-content
-  .myAccount
-  .Education
-  .card-education
-  .title {
-  font-size: 18px;
-  font-weight: 500;
-}
-
-.profile .profile-student
-  .second-content
-  .myAccount
-  .Experiences
-  .card-experiences {
-  width: 100%;
-  border-radius: 5px;
-  border: 1px solid #dbdbdb;
-  padding: 5px;
-  margin-bottom: 20px;
-}
-.profile .profile-student
-  .second-content
-  .myAccount
-  .Experiences
-  .card-experiences
-  .title {
-  font-size: 20px;
-}
 
 /********************* profile student *************************/
 
