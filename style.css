@@ -377,6 +377,14 @@ footer .Links li a:hover {
   background-color: white;
   margin-bottom: 40px;
 }
+
+.profile .profile-student .first-content .subheader {
+  padding-left: 10px;
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1rem;
+}
 .profile .profile-student .first-content .subheader {
   padding-left: 10px;
   font-size: 0.625rem;
@@ -488,32 +496,21 @@ footer .Links li a:hover {
 
 /********************* profile *************************/
 
-@media (max-width: 768px) {
-  .ProfileStudent {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
 
-  .ProfileStudent .ProfileStudent-nav {
-    display: flex;
-    flex-direction: row;
+
+
+/*----------------------------media for mobile----------------------------*/
+@media (max-width: 768px) {
+  .profile .profile-student .first-content .flex-column {
+    flex-direction: row !important;
     justify-content: center;
-    flex-wrap: nowrap;
-    width: 100%;
-    height: 60px;
-    border: 1px solid #d1d0d0;
-    border-radius: 6px;
+    height: 50px;
   }
-  .ProfileStudent .ProfileStudent-nav .icons {
-    font-size: 25px;
-  }
-  .ProfileStudent .ProfileStudent-content {
-    border: 1px solid #bebebe;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-  }
-  .title-nav {
+  .profile .profile-student .first-content .title .title-display{
     display: none;
   }
+  .profile .profile-student .first-content .title .icons{
+    font-size:24px;
+  }
 }
+/*----------------------------media for mobile----------------------------*/
