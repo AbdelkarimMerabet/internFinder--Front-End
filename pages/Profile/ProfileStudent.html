@@ -99,1298 +99,1063 @@
                     <!----------------------------- first-content ----------------------------->
                     <div class="col-sm-12 col-md-3 ">
                         <div class="first-content">
-                            <div
-                            class="nav flex-column nav-pills"
-                            id="v-pills-tab"
-                            role="tablist"
-                            aria-orientation="vertical"
-                            >
-                            <!-- <h4 class="subheader">
-                                Account</h4> -->
-                            <!----------------------------- MY Account ----------------------------------------->
-                            <button
-                                class="nav-link active"
-                                id="v-pills-myAccount-tab"
-                                data-toggle="pill"
-                                data-target="#v-pills-myAccount"
-                                type="button"
-                                role="tab"
-                                aria-controls="v-pills-myAccount"
-                                aria-selected="true"
-                            >
-                                <div class="title">
-                                    <i class="icons bi bi-person-circle"></i>
-                                    <span class="title-display">MY Account</span> 
-                                </div>
-                                
-                            </button>
-                            <!------------------------------- MY Account -------------------------------------->
-                            <!---------------------------- Saved internships ---------------------------------->
-                            <button
-                                class="nav-link"
-                                id="v-pills-SavedInternships-tab"
-                                data-toggle="pill"
-                                data-target="#v-pills-SavedInternships"
-                                type="button"
-                                role="tab"
-                                aria-controls="v-pills-SavedInternships"
-                                aria-selected="false"
-                            >
-                            <div class="title">
-                                <i class="icons bi bi-bookmark"></i>
-                                <span class="title-display">Saved Internships</span> 
-                            </div>
-                            
-                                
-                            </button>
-                            <!---------------------------- Saved internships ---------------------------------->
-                            <!---------------------------- My requests ----------------------------------------->
-                            <button
-                                class="nav-link"
-                                id="v-pills-MyRequests-tab"
-                                data-toggle="pill"
-                                data-target="#v-pills-MyRequests"
-                                type="button"
-                                role="tab"
-                                aria-controls="v-pills-MyRequests"
-                                aria-selected="false"
-                            >
-                            <div class="title">
-                                <i class="icons bi bi-menu-button-wide-fill"></i>
-                                <span class="title-display">My Requests</span> 
-                            </div>
-                            
-                                
-                                
-                            </button>
-                            <!---------------------------- My requests ----------------------------------------->
-                            <!---------------------------- Settings ----------------------------------------->
-                            <button
-                                class="nav-link"
-                                id="v-pills-settings-tab"
-                                data-toggle="pill"
-                                data-target="#v-pills-settings"
-                                type="button"
-                                role="tab"
-                                aria-controls="v-pills-settings"
-                                aria-selected="false"
-                            >
-                                <div class="title">
-                                    <i class="icons bi bi-gear"></i>
-                                    <span class="title-display">Settings</span> 
-                                </div>
-                            </button>
-                            <!---------------------------- Settings ----------------------------------------->
+                            <div class="nav flex-column nav-pills" id="v-pills-tab"
+                                role="tablist" aria-orientation="vertical" >
+                                <!------------ MY Account ------------>
+                                <button class="nav-link active" id="v-pills-myAccount-tab"
+                                    data-toggle="pill" data-target="#v-pills-myAccount" type="button"
+                                    role="tab" aria-controls="v-pills-myAccount" aria-selected="true" >
+                                    <div class="title">
+                                        <i class="icons bi bi-person-circle"></i>
+                                        <span class="title-display">MY Account</span> 
+                                    </div>
+                                    
+                                </button>
+                                <!------------ MY Account ------------>
+                                <!------------ Saved internships ------------>
+                                <button class="nav-link" id="v-pills-SavedInternships-tab"
+                                    data-toggle="pill" data-target="#v-pills-SavedInternships"
+                                    type="button" role="tab" aria-controls="v-pills-SavedInternships"
+                                    aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="icons bi bi-bookmark"></i>
+                                        <span class="title-display">Saved Internships</span> 
+                                    </div>
+                                </button>
+                                <!------------ Saved internships ------------>
+                                <!------------ My requests ------------>
+                                <button class="nav-link" id="v-pills-MyRequests-tab"
+                                    data-toggle="pill" data-target="#v-pills-MyRequests"
+                                    type="button" role="tab" aria-controls="v-pills-MyRequests"
+                                    aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="icons bi bi-menu-button-wide-fill"></i>
+                                        <span class="title-display">My Requests</span> 
+                                    </div>   
+                                </button>
+                                <!------------ My requests ------------>
+                                <!------------ Settings ------------>
+                                <button class="nav-link" id="v-pills-settings-tab"
+                                    data-toggle="pill" data-target="#v-pills-settings" type="button"
+                                    role="tab" aria-controls="v-pills-settings" aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="icons bi bi-gear"></i>
+                                        <span class="title-display">Settings</span> 
+                                    </div>
+                                </button>
+                                <!------------ Settings ------------>
                             </div>
                         </div>
                     </div>
                     <!----------------------------- first-content ----------------------------->
                     
-                    <!----------------------------- second-content ----------------------------->
+                    <!----------------------------- second-content ---------------------------->
                     <div class="col-sm-12 col-md-9 ">
                         <div class="second-content">
                             <div class="tab-content" id="v-pills-tabContent">
                             
-                    <!------------------------- ---My Account ------------------------------------------>
-                            <div
-                            class="tab-pane fade show active"
-                            id="v-pills-myAccount"
-                            role="tabpanel"
-                            aria-labelledby="v-pills-myAccount-tab"
-                            >
-                                <div class="myAccount">
-                                <h3 class="pt-2">My Account</h3>
-                                <hr />
-                                <!-- General informations -->
-                                <div class="General">
-                                    <div class="header-profile">
-                                    <div class="d-flex justify-content-between">
-                                        <div class="title-header">
-                                        <h5>Profile Details</h5>
+                                <!------------My Account -------------------->
+                                <div class="tab-pane fade show active" id="v-pills-myAccount"
+                                    role="tabpanel" aria-labelledby="v-pills-myAccount-tab" >
+                                    <div class="myAccount">
+                                        <h3 class="pt-2">My Account</h3>
+                                        <hr/>
+                                        <!------ General informations ------>
+                                        <div class="general">
+                                            <div class="header-profile">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="title-header">
+                                                        <h5>Profile Details</h5>
+                                                    </div>
+                                                    <button type="button" class="btn btn-primary"
+                                                        data-toggle="modal"
+                                                        data-target="#modal-edit-information" >
+                                                        <i class="bi bi-pencil-fill"></i> 
+                                                        Edit
+                                                    </button>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-3">
+                                                        <div class="profile-img pb-1">
+                                                            <img
+                                                            src="../../images/PhotoProfile.jpg"
+                                                            width="150px"
+                                                            class="img-fluid rounded-circle"
+                                                            />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-9">
+                                                    <div class="profile-info">
+                                                        <h5>
+                                                        <i class="bi bi-person-circle"></i> Merabet
+                                                        Abdelkarim
+                                                        </h5>
+                                                        <h5>
+                                                        <i class="bi bi-geo-alt"></i> Chlef,Chlef
+                                                        </h5>
+                                                        <h5>
+                                                        <i class="bi bi-envelope"></i>
+                                                        merabet.abdelkarim@gmail.com
+                                                        </h5>
+                                                        <h5>
+                                                        <i class="bi bi-telephone"></i> 0778578282
+                                                        </h5>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <button
-                                        type="button"
-                                        class="btn btn-primary"
-                                        data-toggle="modal"
-                                        data-target="#modal-edit-information"
+                                        <!------ General informations -->
+
+                                        <!------ Education ----------------------->
+                                        <div class="education">
+                                            <div class="d-flex justify-content-between">
+                                                <h5>Education</h5>
+                                                <button type="button" class="btn btn-primary"
+                                                    data-toggle="modal" data-target="#modal-add-education"
+                                                >
+                                                    <i class="bi bi-plus-lg"></i> Add
+                                                </button>
+                                            </div>
+                                            <!-- 2 exemple card-education -->
+                                            <div class="d-flex flex-column bd-highlight mt-3 mb-3">
+                                                <div class="card p-3 mb-2">
+                                                    <div class="d-flex justify-content-between flex-row bd-highlight" >
+                                                        <div class="title">
+                                                            <h5 class="card-title">
+                                                                <i class="bi bi-mortarboard"></i>
+                                                                Master,Informatique
+                                                            </h5>
+                                                        </div>
+                                                        <div class="action">
+                                                            <button class="btn btn-outline-danger">
+                                                                <i class="bi bi-trash3-fill"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary"
+                                                                data-toggle="modal" data-target="#modal-edit-education"
+                                                            >
+                                                                <i class="bi bi-pencil-fill"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="card-subtitle mb-2 text-muted text-capitalize" >
+                                                            <i class="bi bi-building"></i>
+                                                            hassiba benbouali of chlef
+                                                        </h6>
+                                                    </div>
+                                                    <div>
+                                                        <i class="bi bi-calendar-check bi-2x"></i>
+                                                        9/1/2018-6/1/2021
+                                                    </div>
+                                                    <div>
+                                                        <p class="card-text">
+                                                            In Laravel, the SRP can be applied by creating
+                                                            smaller, focused classes that handle specific
+                                                            tasks. For example, rather than having a single
+                                                            class
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="card p-3 mb-2">
+                                                    <div class="d-flex justify-content-between flex-row bd-highlight">
+                                                        <div class="title">
+                                                            <h5 class="card-title">
+                                                                <i class="bi bi-mortarboard"></i>
+                                                                Master,Informatique
+                                                            </h5>
+                                                        </div>
+                                                        <div class="action">
+                                                            <button class="btn btn-outline-danger">
+                                                                <i class="bi bi-trash3-fill"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary"
+                                                                data-toggle="modal"
+                                                                data-target="#modal-edit-education"
+                                                            >
+                                                                <i class="bi bi-pencil-fill"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="card-subtitle mb-2 text-muted text-capitalize">
+                                                            <i class="bi bi-building"></i>
+                                                            hassiba benbouali of chlef
+                                                        </h6>
+                                                    </div>
+                                                    <div>
+                                                        <i class="bi bi-calendar-check bi-2x"></i>
+                                                        9/1/2018-6/1/2021
+                                                    </div>
+                                                    <div>
+                                                        <p class="card-text">
+                                                        In Laravel, the SRP can be applied by creating
+                                                        smaller, focused classes that handle specific
+                                                        tasks. For example, rather than having a single
+                                                        class
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 2 exemple card-education -->
+
+                                            <!-- Start Modal Add Education -->
+                                            <div class="modal fade" id="modal-add-education"
+                                                tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
+                                            >
+                                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle" >
+                                                                Add a Education
+                                                            </h5>
+                                                            <button type="button" class="close" id=""
+                                                                data-dismiss="modal" aria-label="Close"
+                                                            >
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form>
+                                                                <div class="row form-group">
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label>Degre</label>
+                                                                        <select class="custom-select" id="inputGroupSelectDegre">
+                                                                        <option selected>Licence</option>
+                                                                        <option value="1">Master</option>
+                                                                        <option value="2">PHD</option>
+                                                                        <option value="1">L1</option>
+                                                                        <option value="2">L2</option>
+                                                                        <option value="1">L3</option>
+                                                                        <option value="2">BAC</option>
+                                                                        <option value="1">CFPS</option>
+                                                                        <option value="2">CAP</option>
+                                                                        <option selected>CMP</option>
+                                                                        <option value="1">BT</option>
+                                                                        <option value="2">TS</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-8">
+                                                                        <label>School</label>
+                                                                        <input type="text" class="form-control"id="inputGroupDegre" placeholder="Enter school / university" value="" />
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label>Speciality</label>
+                                                                        <input type="text" class="form-control" placeholder="Enter speciality" id="inputGroupDegre"/>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label for="StartDate" class="col-form-label" >
+                                                                            Start Date
+                                                                        </label>
+                                                                        <input type="text" id="start-date-education" class="form-control"/>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label for="EndDate" class="col-form-label">
+                                                                            End Date
+                                                                        </label>
+                                                                        <input type="text" id="end-date-education" class="form-control"/>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-12">
+                                                                        <label for="">Description</label>
+                                                                        <textarea class="form-control fixed-size__Description" id="comment"
+                                                                            oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);">
+                                                                        </textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer text-center">
+                                                        <button
+                                                            type="button"
+                                                            class="btn btn-secondary mr-2"
+                                                            data-dismiss="modal"
+                                                            aria-label="Close"
+                                                        >
+                                                            Cancel
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary">
+                                                            Add
+                                                        </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Modal Add Education -->
+
+                                            <!-- Start Modal Edit Education -->
+                                            <div class="modal fade" id="modal-edit-education"
+                                                tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
+                                            >
+                                                <div class="modal-dialog modal-dialog-centered modal-lg"
+                                                    role="document"
+                                                >
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle">
+                                                                Edit a Education
+                                                            </h5>
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal" aria-label="Close"
+                                                            >
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <form>
+                                                                <div class="row form-group">
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label>Degre</label>
+                                                                        <select class="custom-select" id="inputGroupSelectDegre">
+                                                                        <option selected>Licence</option>
+                                                                        <option value="1">Master</option>
+                                                                        <option value="2">PHD</option>
+                                                                        <option value="1">L1</option>
+                                                                        <option value="2">L2</option>
+                                                                        <option value="1">L3</option>
+                                                                        <option value="2">BAC</option>
+                                                                        <option value="1">CFPS</option>
+                                                                        <option value="2">CAP</option>
+                                                                        <option selected>CMP</option>
+                                                                        <option value="1">BT</option>
+                                                                        <option value="2">TS</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-8">
+                                                                        <label>School</label>
+                                                                        <input type="text" class="form-control text-capitalize" id="inputGroupDegre" value="hassiba benbouali of chlef "/>
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label>Speciality</label>
+                                                                        <input type="text" class="form-control" value="Informatique" id="inputGroupDegre" />
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label for="StartDate" class="col-form-label">
+                                                                            Start Date
+                                                                        </label>
+                                                                        <input type="text" class="form-control" id="start-date-education__edit" value="08/08/2018" />
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-4">
+                                                                        <label for="EndDate" class="col-form-label">
+                                                                            End Date
+                                                                        </label>
+                                                                        <input type="text" class="form-control" id="end-date-education__edit"value="02/02/2022" />  
+                                                                    </div>
+                                                                    <div class="col-sm-12 col-md-12">
+                                                                        <label for="">Description</label>
+                                                                        <textarea class="form-control fixed-size__Description" id="comment"
+                                                                            oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);"
+                                                                        >In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                        <div class="modal-footer text-center">
+                                                        <button
+                                                            type="button"
+                                                            class="btn btn-secondary mr-2"
+                                                            data-dismiss="modal"
+                                                            aria-label="Close"
+                                                        >
+                                                            Cancel
+                                                        </button>
+                                                        <button type="button" class="btn btn-success">
+                                                            Update
+                                                        </button>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Modal Edit Education -->
+                                        </div>
+                                        <!------ Education ----------------------->
+                                        <hr/>
+
+                                        <!------ Experiences --------------------->
+                                        <div class="Experiences">
+                                            <div class="d-flex justify-content-between">
+                                            <h5>Experiences</h5>
+                                            <button type="button" class="btn btn-primary"
+                                                data-toggle="modal" data-target="#modal-add-experiences"
+                                            >
+                                                <i class="bi bi-plus-lg"></i> Add
+                                            </button>
+                                        </div>
+
+                                        <!-- 2 exemple card-education -->
+                                        <div class="d-flex flex-column bd-highlight mt-3 mb-3">
+                                            <div class="card p-3 mb-2">
+                                            <div class="d-flex justify-content-between flex-row">
+                                                <div class="title">
+                                                <h5 class="card-title">
+                                                    <i class="bi bi-briefcase"></i>
+                                                    Back-end, Developer
+                                                </h5>
+                                                </div>
+                                                <div class="action">
+                                                <button class="btn btn-outline-danger">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-outline-secondary"
+                                                    data-toggle="modal"
+                                                    data-target="#modal-edit-experiences"
+                                                >
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <i class="bi bi-calendar-check bi-2x"></i>
+                                                9/1/2018-6/1/2021
+                                            </div>
+                                            <div>
+                                                <p class="card-text">
+                                                In Laravel, the SRP can be applied by creating
+                                                smaller, focused classes that handle specific
+                                                tasks. For example, rather than having a single
+                                                class
+                                                </p>
+                                            </div>
+                                            </div>
+
+                                            <div class="card p-3 mb-2">
+                                            <div class="d-flex justify-content-between flex-row">
+                                                <div class="title">
+                                                <h5 class="card-title">
+                                                    <i class="bi bi-briefcase"></i>
+                                                    Back-end, Developer
+                                                </h5>
+                                                </div>
+                                                <div class="action">
+                                                <button class="btn btn-outline-danger">
+                                                    <i class="bi bi-trash3-fill"></i>
+                                                </button>
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-outline-secondary"
+                                                    data-toggle="modal"
+                                                    data-target="#modal-edit-experiences"
+                                                >
+                                                    <i class="bi bi-pencil-fill"></i>
+                                                </button>
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <i class="bi bi-calendar-check bi-2x"></i>
+                                                9/1/2018-6/1/2021
+                                            </div>
+                                            <div>
+                                                <p class="card-text">
+                                                In Laravel, the SRP can be applied by creating
+                                                smaller, focused classes that handle specific
+                                                tasks. For example, rather than having a single
+                                                class
+                                                </p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                        <!-- 2 exemple card-education -->
+
+                                        <!-- Start Modal Add Experiences -->
+                                        <div
+                                            class="modal fade"
+                                            id="modal-add-experiences"
+                                            tabindex="-1"
+                                            role="dialog"
+                                            aria-labelledby="ModalExperiencesTitle"
+                                            aria-hidden="true"
                                         >
-                                        <i class="bi bi-pencil-fill"></i> Edit
-                                        </button>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                        <div class="profile-img pb-1">
-                                            <img
-                                            src="../../images/PhotoProfile.jpg"
-                                            width="150px"
-                                            class="img-fluid rounded-circle"
-                                            />
+                                            <div
+                                            class="modal-dialog modal-dialog-centered modal-lg"
+                                            role="document"
+                                            >
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLongTitle"
+                                                >
+                                                    Add a Experience
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="close"
+                                                    data-dismiss="modal"
+                                                    aria-label="Close"
+                                                >
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                <form>
+                                                    <div class="row form-group">
+                                                    <div class="col-sm-12">
+                                                        <label>Job</label>
+                                                        <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        placeholder="Enter Job"
+                                                        id="inputGroupDegre"
+                                                        />
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <label
+                                                        for="StartDate"
+                                                        class="col-form-label"
+                                                        >Start Date
+                                                        </label>
+                                                        <input
+                                                        type="text"
+                                                        id="start-date-experiences"
+                                                        class="form-control"
+                                                        />
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <label for="EndDate" class="col-form-label"
+                                                        >End Date</label
+                                                        >
+                                                        <input
+                                                        type="text"
+                                                        id="end-date-experiences"
+                                                        class="form-control"
+                                                        />
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <label for="">Description</label>
+                                                        <textarea
+                                                        oninput="limitWords(event)"
+                                                        class="form-control fixed-size__Description"
+                                                        onkeypress="return imposeMaxLength(this, 100);"
+                                                        id="comment"
+                                                        ></textarea>
+                                                    </div>
+                                                    </div>
+                                                </form>
+                                                </div>
+                                                <div class="modal-footer text-center">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary mr-2"
+                                                    data-dismiss="modal"
+                                                    aria-label="Close"
+                                                >
+                                                    Cancel
+                                                </button>
+                                                <button type="button" class="btn btn-primary">
+                                                    Add
+                                                </button>
+                                                </div>
+                                            </div>
+                                            </div>
                                         </div>
-                                        <div class="file btn btn-lg btn-primary">
-                                            Change Photo
-                                            <input type="file" name="file" />
+                                        <!-- End Modal Add Experiences -->
+
+                                        <!-- Start Modal Edit Experiences  -->
+                                        <div
+                                            class="modal fade"
+                                            id="modal-edit-experiences"
+                                            tabindex="-1"
+                                            role="dialog"
+                                            aria-labelledby="ModalExperiencesTitle"
+                                            aria-hidden="true"
+                                        >
+                                            <div
+                                            class="modal-dialog modal-dialog-centered modal-lg"
+                                            role="document"
+                                            >
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLongTitle"
+                                                >
+                                                    Edit a Experience
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="close"
+                                                    data-dismiss="modal"
+                                                    aria-label="Close"
+                                                >
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                <form>
+                                                    <div class="row form-group">
+                                                    <div class="col-sm-12">
+                                                        <label>Job</label>
+                                                        <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        value="Back-end, Developer "
+                                                        id="inputGroupDegre"
+                                                        />
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <label
+                                                        for="StartDate"
+                                                        class="col-form-label"
+                                                        >Start Date
+                                                        </label>
+                                                        <input
+                                                        type="text"
+                                                        id="start-date-experiences__edit"
+                                                        class="form-control"
+                                                        value=" 9/1/2020"
+                                                        />
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <label for="EndDate" class="col-form-label"
+                                                        >End Date</label
+                                                        >
+                                                        <input
+                                                        type="text"
+                                                        id="end-date-experiences__edit"
+                                                        class="form-control"
+                                                        value=" 9/1/2023"
+                                                        />
+                                                    </div>
+                                                    <div class="col-sm-12">
+                                                        <label for="">Description</label>
+                                                        <textarea
+                                                        oninput="limitWords(event)"
+                                                        class="form-control fixed-size__Description"
+                                                        onkeypress="return imposeMaxLength(this, 100);"
+                                                        id="comment"
+                                                        >
+                    In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea
+                                                        >
+                                                    </div>
+                                                    </div>
+                                                </form>
+                                                </div>
+                                                <div class="modal-footer text-center">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary mr-2"
+                                                    data-dismiss="modal"
+                                                    aria-label="Close"
+                                                >
+                                                    Cancel
+                                                </button>
+                                                <button type="button" class="btn btn-success">
+                                                    Update
+                                                </button>
+                                                </div>
+                                            </div>
+                                            </div>
                                         </div>
+                                        <!-- End Modal Edit Experiences -->
                                         </div>
-                                        <div class="col-md-9">
-                                        <div class="profile-info">
-                                            <h5>
-                                            <i class="bi bi-person-circle"></i> Merabet
-                                            Abdelkarim
-                                            </h5>
-                                            <h5>
-                                            <i class="bi bi-geo-alt"></i> Chlef,Chlef
-                                            </h5>
-                                            <h5>
-                                            <i class="bi bi-envelope"></i>
-                                            merabet.abdelkarim@gmail.com
-                                            </h5>
-                                            <h5>
-                                            <i class="bi bi-telephone"></i> 0778578282
-                                            </h5>
+                                        <!------ Experiences --------------------->
+                                        <hr/>
+
+                                        <!------- Skills ------------------------->
+                                        <div class="Skills">
+                                            <div class="d-flex justify-content-between">
+                                            <h5>Skills</h5>
+                                            <button type="button" class="btn btn-primary"
+                                                data-toggle="modal" data-target="#ModalSkills"
+                                            >
+                                                <i class="bi bi-plus-lg"></i> Add
+                                            </button>
+                                            </div>
+
+                                            <!-- exemple Skills -->
+                                            <div class="d-flex flex-row flex-wrap bd-highlight mt-3">
+                                                <spin class="skills-Lang__selected m-2">
+                                                Figma - Beginner
+                                                <button type="button" class="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </spin>
+                                                <spin class="skills-Lang__selected m-2">
+                                                Bootstrap - Experience
+                                                <button type="button" class="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </spin>
+                                                <spin class="skills-Lang__selected m-2">
+                                                css - Beginner
+                                                <button type="button" class="close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                                </spin>
+                                            </div>
+                                            <!-- exemple Skills -->
+
+                                            <!-- Modal Skills -->
+                                            <div class="modal fade" id="ModalSkills"
+                                                tabindex="-1" role="dialog" aria-labelledby="ModalSkillsTitle" aria-hidden="true"
+                                            >
+                                                <div class="modal-dialog modal-dialog-centered"
+                                                    role="document"
+                                                >
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle">
+                                                                Add a Skills
+                                                            </h5>
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal" aria-label="Close"
+                                                            >
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <label>Skills</label>
+                                                            <select class="custom-select" id="inputGroupSelectSkills" >
+                                                                <option selected>Figma</option>
+                                                                <option value="1">Bootstrap</option>
+                                                                <option value="2">React js</option>
+                                                                <option value="3">Laravel</option>
+                                                                <option value="4">css</option>
+                                                                <option value="5">Flutter</option>
+                                                                <option value="6">jQuery</option>
+                                                                <option value="7">c++</option>
+                                                            </select>
+                                                            <label>level</label>
+                                                            <select class="custom-select" id="inputGroupSelectlevelSkills">
+                                                                <option selected>Beginner</option>
+                                                                <option value="1">Experience</option>
+                                                                <option value="2">Expert</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="modal-footer text-center">
+                                                            <button type="button" class="btn btn-primary">
+                                                                Add
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Modal Skills -->
                                         </div>
+                                        <!------ Skills -------------------------->
+                                        <hr/>
+
+                                        <!------ Languages ----------------------->
+                                        <div class="Languages">
+                                            <div class="d-flex justify-content-between">
+                                                <h5>Languages</h5>
+                                                <button type="button" class="btn btn-primary" id=""
+                                                    data-toggle="modal" data-target="#ModalLanguages"
+                                                >
+                                                    <i class="bi bi-plus-lg"></i> Add
+                                                </button>
+                                            </div>
+
+                                            <!-- exemple Languages -->
+                                            <div class="d-flex flex-wrap flex-row bd-highlight mt-3">
+                                                <span class="skills-Lang__selected m-2">
+                                                    English - A1
+                                                    <button type="button" class="close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </span>
+                                                <span class="skills-Lang__selected m-2">
+                                                    Arabic - B2
+                                                    <button type="button" class="close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                            <!-- exemple Languages -->
+
+                                            <!-- Modal Languages -->
+                                            <div class="modal fade" id="ModalLanguages"
+                                                tabindex="-1" role="dialog" aria-labelledby="ModalLanguagesTitle" aria-hidden="true"
+                                            >
+                                                <div class="modal-dialog modal-dialog-centered" role="document" >
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                            <h5 class="modal-title" id="exampleModalLongTitle" >
+                                                                Add a language
+                                                            </h5>
+                                                            <button type="button" class="close"
+                                                                data-dismiss="modal" aria-label="Close"
+                                                            >
+                                                                <span aria-hidden="true">&times;</span>
+                                                            </button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                            <label>Language</label>
+                                                            <select class="custom-select" id="inputGroupSelectLanguage">
+                                                                <option selected>English</option>
+                                                                <option value="1">French</option>
+                                                                <option value="2">Arabe</option>
+                                                            </select>
+                                                            <label>level</label>
+                                                            <select class="custom-select" id="inputGroupSelectlevelLanguage">
+                                                                <option selected>A1</option>
+                                                                <option value="1">A2</option>
+                                                                <option value="1">B1</option>
+                                                                <option value="1">B2</option>
+                                                                <option value="1">C1</option>
+                                                                <option value="1">C2</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="modal-footer text-center">
+                                                            <button type="button" class="btn btn-primary">
+                                                                Add
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Modal Languages -->
                                         </div>
-                                    </div>
-                                    </div>
+                                        <!------ Languages ----------------------->
+                                    </div>   
                                 </div>
-                                <!-- General informations -->
-                                <!-- Modal Edit Information Profile -->
-                                <div
-                                class="modal fade"
-                                id="modal-edit-information"
-                                tabindex="-1"
-                                role="dialog"
-                                aria-labelledby="ModalEducationTitle"
-                                aria-hidden="true"
+                                <!------------ My Account ------------------->
+
+                                <!------------ Saved internships ------------>
+                                <div class="tab-pane fade" id="v-pills-SavedInternships" role="tabpanel"
+                                    aria-labelledby="v-pills-SavedInternships-tab"
                                 >
-                                <div
-                                    class="modal-dialog modal-dialog-centered modal-lg"
-                                    role="document"
-                                >
-                                    <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLongTitle">
-                                        Edit Information
-                                        </h5>
-                                        <button
-                                        type="button"
-                                        class="close"
-                                        data-dismiss="modal"
-                                        aria-label="Close"
-                                        >
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form>
-                                        <div class="row form-group">
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>First Name </label>
-                                            <input
-                                                type="text"
-                                                value="Abdelkarim"
-                                                class="form-control"
-                                            />
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>Last Name </label>
-                                            <input
-                                                type="text"
-                                                value="Merabet"
-                                                class="form-control"
-                                            />
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>Email Address</label>
-                                            <input
-                                                type="email"
-                                                value="merabet@gmail.com"
-                                                class="form-control"
-                                            />
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>Phone</label>
-                                            <input
-                                                type="text"
-                                                value="0778578282"
-                                                class="form-control"
-                                            />
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>State</label>
-                                            <input
-                                                type="text"
-                                                value="Chlef"
-                                                class="form-control"
-                                            />
-                                            </div>
-                                            <div class="col-sm-12 col-md-6">
-                                            <label>City</label>
-                                            <input
-                                                type="text"
-                                                value="Chlef"
-                                                class="form-control"
-                                            />
-                                            </div>
+                                    <div class="SavedInternships">
+                                        <h3 class="pt-2">Saved Internships</h3>
+                                        <hr />
+                                        <div>
+                                            In this section, all the job offers that you have saved
+                                            are stored
                                         </div>
-                                        </form>
-                                    </div>
-                                    <div class="modal-footer text-center">
-                                        <button
-                                        type="button"
-                                        data-dismiss="modal"
-                                        aria-label="Close"
-                                        class="btn btn-secondary mr-2"
-                                        >
-                                        Cancel
-                                        </button>
-                                        <button type="button" class="btn btn-success">
-                                        Update
-                                        </button>
-                                    </div>
+                                        <div class="mt-5">You don't have any saved offers</div>
                                     </div>
                                 </div>
-                                </div>
-                                <!-- Modal Edit Information Profile -->
-
-                                <!-- Education -->
-                                <div class="education">
-                                <div class="d-flex justify-content-between">
-                                    <h5>Education</h5>
-                                    <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="modal"
-                                    data-target="#modal-add-education"
-                                    >
-                                    <i class="bi bi-plus-lg"></i> Add
-                                    </button>
-                                </div>
-                                <!-- 2 exemple card-education -->
-                                <div class="d-flex flex-column bd-highlight mt-3 mb-3">
-                                    <div class="card p-3 mb-2">
-                                    <div
-                                        class="d-flex justify-content-between flex-row bd-highlight"
-                                    >
-                                        <div class="title">
-                                        <h5 class="card-title">
-                                            <i class="bi bi-mortarboard"></i>
-                                            Master,Informatique
-                                        </h5>
-                                        </div>
-                                        <div class="action">
-                                        
-                                        <button class="btn btn-outline-danger">
-                                            <i class="bi bi-trash3-fill"></i>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-secondary"
-                                            data-toggle="modal"
-                                            data-target="#modal-edit-education"
-                                        >
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <h6
-                                        class="card-subtitle mb-2 text-muted text-capitalize"
-                                        >
-                                        <i class="bi bi-building"></i>
-                                        hassiba benbouali of chlef
-                                        </h6>
-                                    </div>
-                                    <div>
-                                        <i class="bi bi-calendar-check bi-2x"></i>
-                                        9/1/2018-6/1/2021
-                                    </div>
-                                    <div>
-                                        <p class="card-text">
-                                        In Laravel, the SRP can be applied by creating
-                                        smaller, focused classes that handle specific
-                                        tasks. For example, rather than having a single
-                                        class
-                                        </p>
-                                    </div>
-                                    </div>
-
-                                    <div class="card p-3 mb-2">
-                                    <div
-                                        class="d-flex justify-content-between flex-row bd-highlight"
-                                    >
-                                        <div class="title">
-                                        <h5 class="card-title">
-                                            <i class="bi bi-mortarboard"></i>
-                                            Master,Informatique
-                                        </h5>
-                                        </div>
-                                        <div class="action">
-                                        <button class="btn btn-outline-danger">
-                                            <i class="bi bi-trash3-fill"></i>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-secondary"
-                                            data-toggle="modal"
-                                            data-target="#modal-edit-education"
-                                        >
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <h6
-                                        class="card-subtitle mb-2 text-muted text-capitalize"
-                                        >
-                                        <i class="bi bi-building"></i>
-                                        hassiba benbouali of chlef
-                                        </h6>
-                                    </div>
-                                    <div>
-                                        <i class="bi bi-calendar-check bi-2x"></i>
-                                        9/1/2018-6/1/2021
-                                    </div>
-                                    <div>
-                                        <p class="card-text">
-                                        In Laravel, the SRP can be applied by creating
-                                        smaller, focused classes that handle specific
-                                        tasks. For example, rather than having a single
-                                        class
-                                        </p>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- 2 exemple card-education -->
-
-                                <!-- Start Modal Add Education -->
-                                <div
-                                    class="modal fade"
-                                    id="modal-add-education"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalEducationTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered modal-lg"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Add a Education
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <form>
-                                            <div class="row form-group">
-                                            <div class="col-sm-12 col-md-4">
-                                                <label>Degre</label>
-                                                <select
-                                                class="custom-select"
-                                                id="inputGroupSelectDegre"
-                                                >
-                                                <option selected>Licence</option>
-                                                <option value="1">Master</option>
-                                                <option value="2">PHD</option>
-                                                <option value="1">L1</option>
-                                                <option value="2">L2</option>
-                                                <option value="1">L3</option>
-                                                <option value="2">BAC</option>
-                                                <option value="1">CFPS</option>
-                                                <option value="2">CAP</option>
-                                                <option selected>CMP</option>
-                                                <option value="1">BT</option>
-                                                <option value="2">TS</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-sm-12 col-md-8">
-                                                <label>School</label>
-                                                <input
-                                                type="text"
-                                                class="form-control"
-                                                placeholder="Enter school / university"
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label>Speciality</label>
-                                                <input
-                                                type="text"
-                                                class="form-control"
-                                                placeholder="Enter speciality"
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label
-                                                for="StartDate"
-                                                class="col-form-label"
-                                                >Start Date
-                                                </label>
-                                                <input
-                                                type="text"
-                                                id="start-date-education"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label for="EndDate" class="col-form-label"
-                                                >End Date</label
-                                                >
-                                                <input
-                                                type="text"
-                                                id="end-date-education"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-12">
-                                                <label for="">Description</label>
-                                                <textarea
-                                                oninput="limitWords(event)"
-                                                class="form-control fixed-size__Description"
-                                                onkeypress="return imposeMaxLength(this, 100);"
-                                                id="comment"
-                                                ></textarea>
-                                            </div>
-                                            </div>
-                                        </form>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button
-                                            type="button"
-                                            class="btn btn-secondary mr-2"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            Cancel
-                                        </button>
-                                        <button type="button" class="btn btn-primary">
-                                            Add
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- End Modal Add Education -->
-
-                                <!-- Start Modal Edit Education -->
-                                <div
-                                    class="modal fade"
-                                    id="modal-edit-education"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalEducationTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered modal-lg"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Edit a Education
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <form>
-                                            <div class="row form-group">
-                                            <div class="col-sm-12 col-md-4">
-                                                <label>Degre</label>
-                                                <select
-                                                class="custom-select"
-                                                id="inputGroupSelectDegre"
-                                                >
-                                                <option selected>Licence</option>
-                                                <option value="1">Master</option>
-                                                <option value="2">PHD</option>
-                                                <option value="1">L1</option>
-                                                <option value="2">L2</option>
-                                                <option value="1">L3</option>
-                                                <option value="2">BAC</option>
-                                                <option value="1">CFPS</option>
-                                                <option value="2">CAP</option>
-                                                <option selected>CMP</option>
-                                                <option value="1">BT</option>
-                                                <option value="2">TS</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-sm-12 col-md-8">
-                                                <label>School</label>
-                                                <input
-                                                type="text"
-                                                class="form-control text-capitalize"
-                                                value="hassiba benbouali of chlef "
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label>Speciality</label>
-                                                <input
-                                                type="text"
-                                                class="form-control"
-                                                value="Informatique"
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label
-                                                for="StartDate"
-                                                class="col-form-label"
-                                                >Start Date
-                                                </label>
-                                                <input
-                                                value="08/08/2018"
-                                                type="text"
-                                                id="start-date-education__edit"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-4">
-                                                <label for="EndDate" class="col-form-label"
-                                                >End Date</label
-                                                >
-                                                <input
-                                                value="02/02/2022"
-                                                type="text"
-                                                id="end-date-education__edit"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12 col-md-12">
-                                                <label for="">Description</label>
-                                                <textarea
-                                                oninput="limitWords(event)"
-                                                class="form-control fixed-size__Description"
-                                                onkeypress="return imposeMaxLength(this, 100);"
-                                                id="comment"
-                                                >
-            In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea
-                                                >
-                                            </div>
-                                            </div>
-                                        </form>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button
-                                            type="button"
-                                            class="btn btn-secondary mr-2"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            Cancel
-                                        </button>
-                                        <button type="button" class="btn btn-success">
-                                            Update
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- End Modal Edit Education -->
-                                </div>
-                                <!-- Education -->
-
-                                <hr />
-
-                                <!-- Experiences -->
-                                <div class="Experiences">
-                                <div class="d-flex justify-content-between">
-                                    <h5>Experiences</h5>
-                                    <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="modal"
-                                    data-target="#modal-add-experiences"
-                                    >
-                                    <i class="bi bi-plus-lg"></i> Add
-                                    </button>
-                                </div>
-
-                                <!-- 2 exemple card-education -->
-                                <div class="d-flex flex-column bd-highlight mt-3 mb-3">
-                                    <div class="card p-3 mb-2">
-                                    <div class="d-flex justify-content-between flex-row">
-                                        <div class="title">
-                                        <h5 class="card-title">
-                                            <i class="bi bi-briefcase"></i>
-                                            Back-end, Developer
-                                        </h5>
-                                        </div>
-                                        <div class="action">
-                                        <button class="btn btn-outline-danger">
-                                            <i class="bi bi-trash3-fill"></i>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-secondary"
-                                            data-toggle="modal"
-                                            data-target="#modal-edit-experiences"
-                                        >
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <i class="bi bi-calendar-check bi-2x"></i>
-                                        9/1/2018-6/1/2021
-                                    </div>
-                                    <div>
-                                        <p class="card-text">
-                                        In Laravel, the SRP can be applied by creating
-                                        smaller, focused classes that handle specific
-                                        tasks. For example, rather than having a single
-                                        class
-                                        </p>
-                                    </div>
-                                    </div>
-
-                                    <div class="card p-3 mb-2">
-                                    <div class="d-flex justify-content-between flex-row">
-                                        <div class="title">
-                                        <h5 class="card-title">
-                                            <i class="bi bi-briefcase"></i>
-                                            Back-end, Developer
-                                        </h5>
-                                        </div>
-                                        <div class="action">
-                                        <button class="btn btn-outline-danger">
-                                            <i class="bi bi-trash3-fill"></i>
-                                        </button>
-                                        <button
-                                            type="button"
-                                            class="btn btn-outline-secondary"
-                                            data-toggle="modal"
-                                            data-target="#modal-edit-experiences"
-                                        >
-                                            <i class="bi bi-pencil-fill"></i>
-                                        </button>
-                                        </div>
-                                    </div>
-
-                                    <div>
-                                        <i class="bi bi-calendar-check bi-2x"></i>
-                                        9/1/2018-6/1/2021
-                                    </div>
-                                    <div>
-                                        <p class="card-text">
-                                        In Laravel, the SRP can be applied by creating
-                                        smaller, focused classes that handle specific
-                                        tasks. For example, rather than having a single
-                                        class
-                                        </p>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- 2 exemple card-education -->
-
-                                <!-- Start Modal Add Experiences -->
-                                <div
-                                    class="modal fade"
-                                    id="modal-add-experiences"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalExperiencesTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered modal-lg"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Add a Experience
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <form>
-                                            <div class="row form-group">
-                                            <div class="col-sm-12">
-                                                <label>Job</label>
-                                                <input
-                                                type="text"
-                                                class="form-control"
-                                                placeholder="Enter Job"
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-
-                                            <div class="col-sm-6">
-                                                <label
-                                                for="StartDate"
-                                                class="col-form-label"
-                                                >Start Date
-                                                </label>
-                                                <input
-                                                type="text"
-                                                id="start-date-experiences"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label for="EndDate" class="col-form-label"
-                                                >End Date</label
-                                                >
-                                                <input
-                                                type="text"
-                                                id="end-date-experiences"
-                                                class="form-control"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <label for="">Description</label>
-                                                <textarea
-                                                oninput="limitWords(event)"
-                                                class="form-control fixed-size__Description"
-                                                onkeypress="return imposeMaxLength(this, 100);"
-                                                id="comment"
-                                                ></textarea>
-                                            </div>
-                                            </div>
-                                        </form>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button
-                                            type="button"
-                                            class="btn btn-secondary mr-2"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            Cancel
-                                        </button>
-                                        <button type="button" class="btn btn-primary">
-                                            Add
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- End Modal Add Experiences -->
-
-                                <!-- Start Modal Edit Experiences  -->
-                                <div
-                                    class="modal fade"
-                                    id="modal-edit-experiences"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalExperiencesTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered modal-lg"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Edit a Experience
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <form>
-                                            <div class="row form-group">
-                                            <div class="col-sm-12">
-                                                <label>Job</label>
-                                                <input
-                                                type="text"
-                                                class="form-control"
-                                                value="Back-end, Developer "
-                                                id="inputGroupDegre"
-                                                />
-                                            </div>
-
-                                            <div class="col-sm-6">
-                                                <label
-                                                for="StartDate"
-                                                class="col-form-label"
-                                                >Start Date
-                                                </label>
-                                                <input
-                                                type="text"
-                                                id="start-date-experiences__edit"
-                                                class="form-control"
-                                                value=" 9/1/2020"
-                                                />
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <label for="EndDate" class="col-form-label"
-                                                >End Date</label
-                                                >
-                                                <input
-                                                type="text"
-                                                id="end-date-experiences__edit"
-                                                class="form-control"
-                                                value=" 9/1/2023"
-                                                />
-                                            </div>
-                                            <div class="col-sm-12">
-                                                <label for="">Description</label>
-                                                <textarea
-                                                oninput="limitWords(event)"
-                                                class="form-control fixed-size__Description"
-                                                onkeypress="return imposeMaxLength(this, 100);"
-                                                id="comment"
-                                                >
-            In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea
-                                                >
-                                            </div>
-                                            </div>
-                                        </form>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button
-                                            type="button"
-                                            class="btn btn-secondary mr-2"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            Cancel
-                                        </button>
-                                        <button type="button" class="btn btn-success">
-                                            Update
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- End Modal Edit Experiences -->
-                                </div>
-                                <!-- Experiences -->
-
-                                <hr />
-
-                                <!-- Skills -->
-                                <div class="Skills">
-                                <div class="d-flex justify-content-between">
-                                    <h5>Skills</h5>
-                                    <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="modal"
-                                    data-target="#ModalSkills"
-                                    >
-                                    <i class="bi bi-plus-lg"></i> Add
-                                    </button>
-                                </div>
-
-                                <!-- exemple Skills -->
-                                <div class="d-flex flex-row flex-wrap bd-highlight mt-3">
-                                    <spin class="skills-Lang__selected m-2">
-                                    Figma - Beginner
-                                    <button type="button" class="close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </spin>
-                                    <spin class="skills-Lang__selected m-2">
-                                    Bootstrap - Experience
-                                    <button type="button" class="close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </spin>
-                                    <spin class="skills-Lang__selected m-2">
-                                    css - Beginner
-                                    <button type="button" class="close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </spin>
-                                </div>
-                                <!-- exemple Skills -->
-
-                                <!-- Modal Skills -->
-                                <div
-                                    class="modal fade"
-                                    id="ModalSkills"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalSkillsTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Add a Skills
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <label>Skills</label>
-                                        <select
-                                            class="custom-select"
-                                            id="inputGroupSelectSkills"
-                                        >
-                                            <option selected>Figma</option>
-                                            <option value="1">Bootstrap</option>
-                                            <option value="2">React js</option>
-                                            <option value="3">Laravel</option>
-                                            <option value="4">css</option>
-                                            <option value="5">Flutter</option>
-                                            <option value="6">jQuery</option>
-                                            <option value="7">c++</option>
-                                        </select>
-                                        <label>level</label>
-                                        <select
-                                            class="custom-select"
-                                            id="inputGroupSelectlevelSkills"
-                                        >
-                                            <option selected>Beginner</option>
-                                            <option value="1">Experience</option>
-                                            <option value="2">Expert</option>
-                                        </select>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button type="button" class="btn btn-primary">
-                                            Add
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- Modal Skills -->
-                                </div>
-                                <!-- Skills -->
-
-                                <hr />
-
-                                <!-- Languages -->
-                                <div class="Languages">
-                                <div class="d-flex justify-content-between">
-                                    <h5>Languages</h5>
-                                    <button
-                                    type="button"
-                                    class="btn btn-primary"
-                                    data-toggle="modal"
-                                    data-target="#ModalLanguages"
-                                    >
-                                    <i class="bi bi-plus-lg"></i> Add
-                                    </button>
-                                </div>
-
-                                <!-- exemple Languages -->
-                                <div class="d-flex flex-wrap flex-row bd-highlight mt-3">
-                                    <spin class="skills-Lang__selected m-2">
-                                    English - A1
-                                    <button type="button" class="close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </spin>
-                                    <spin class="skills-Lang__selected m-2">
-                                    Arabic - B2
-                                    <button type="button" class="close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                    </spin>
-                                </div>
-                                <!-- exemple Languages -->
-
-                                <!-- Modal Languages -->
-                                <div
-                                    class="modal fade"
-                                    id="ModalLanguages"
-                                    tabindex="-1"
-                                    role="dialog"
-                                    aria-labelledby="ModalLanguagesTitle"
-                                    aria-hidden="true"
-                                >
-                                    <div
-                                    class="modal-dialog modal-dialog-centered"
-                                    role="document"
-                                    >
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                        <h5
-                                            class="modal-title"
-                                            id="exampleModalLongTitle"
-                                        >
-                                            Add a language
-                                        </h5>
-                                        <button
-                                            type="button"
-                                            class="close"
-                                            data-dismiss="modal"
-                                            aria-label="Close"
-                                        >
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        </div>
-                                        <div class="modal-body">
-                                        <label>Language</label>
-                                        <select
-                                            class="custom-select"
-                                            id="inputGroupSelectLanguage"
-                                        >
-                                            <option selected>English</option>
-                                            <option value="1">French</option>
-                                            <option value="2">Arabe</option>
-                                        </select>
-                                        <label>level</label>
-                                        <select
-                                            class="custom-select"
-                                            id="inputGroupSelectlevelLanguage"
-                                        >
-                                            <option selected>A1</option>
-                                            <option value="1">A2</option>
-                                            <option value="1">B1</option>
-                                            <option value="1">B2</option>
-                                            <option value="1">C1</option>
-                                            <option value="1">C2</option>
-                                        </select>
-                                        </div>
-                                        <div class="modal-footer text-center">
-                                        <button type="button" class="btn btn-primary">
-                                            Add
-                                        </button>
-                                        </div>
-                                    </div>
-                                    </div>
-                                </div>
-                                <!-- Modal Languages -->
-                                </div>
-                                <!-- Languages -->
-
-                                </div>   
-                            </div>
-                    <!---------------------------- My Account ----------------------------------------->
-                    <!---------------------------- Saved internships ---------------------------------->
-                            <div
-                            class="tab-pane fade"
-                            id="v-pills-SavedInternships"
-                            role="tabpanel"
-                            aria-labelledby="v-pills-SavedInternships-tab"
-                            >
-                            <div class="SavedInternships">
-                                <h3 class="pt-2">Saved Internships</h3>
-                                <hr />
-                                <div>
-                                In this section, all the job offers that you have saved
-                                are stored
-                                </div>
-                                <div class="mt-5">You don't have any saved offers</div>
-                            </div>
-                            </div>
-                    <!---------------------------- Saved internships ---------------------------------->
-                    <!---------------------------- My requests ----------------------------------------->
-                            <div
-                            class="tab-pane fade"
-                            id="v-pills-MyRequests"
-                            role="tabpanel"
-                            aria-labelledby="v-pills-MyRequests-tab"
-                            >
-                                <div class="myRequests">
-                                    <h3 class="pt-2">My Requests</h3>
-                                    <hr />
-                                    <div>
-                                    In this section, all advertisements that you applied to
-                                    are stored
-                                    </div>
-                                    <div class="mt-5">There are no requests</div>
-                                </div>
-                            </div>
-                    <!---------------------------- My requests ----------------------------------------->
-
-                    <!---------------------------- Settings ----------------------------------------->
-                            <div
-                            class="tab-pane fade"
-                            id="v-pills-settings"
-                            role="tabpanel"
-                            aria-labelledby="v-pills-settings-tab"
-                            >
-                                <div class="Settings">
-                                    <h3 class="pt-2">Settings</h3>
-                                    <hr />
-                                    <h5>Change Password</h5>
-                                    <div>Make sure you remember the password to log in</div>
-                                    <div class="form-row">
-                                    <div class="col-md-12">
-                                        <p class="paragraph">Enter the new password.</p>
-                                    </div>
-                                    </div>
-                                    <form>
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                        <label>Old password</label>
-                                        <input
-                                            type="password"
-                                            placeholder="Password"
-                                            class="form-control"
-                                        />
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                        <label>New Password</label>
-                                        <input
-                                            type="password"
-                                            placeholder="Password"
-                                            class="form-control"
-                                        />
-                                        </div>
-                                    </div>
-                                    <div class="form-row">
-                                        <div class="col-md-12">
-                                        <label>Confirm Password</label>
-                                        <input
-                                            type="password"
-                                            placeholder="Confirm"
-                                            class="form-control"
-                                        />
-                                        </div>
-                                    </div>
-                                    </form>
-                                    <div
-                                    class="d-flex align-items-end flex-column bd-highlight mb-3"
-                                    >
-                                    <div class="p-2 bd-highlight">
-                                        <button type="button" class="btn btn-success">
-                                        Save
-                                        </button>
-                                    </div>
-                                    </div>
-                                    <hr />
-                                    <h5 class="pt-4">Delete Account</h5>
-                                    <div class="row">
-                                    <div class="col-md-12">
+                                <!------------Saved internships ------------->
+                               
+                                <!------------ My requests ------------------>
+                                <div class="tab-pane fade" id="v-pills-MyRequests"
+                                    role="tabpanel" aria-labelledby="v-pills-MyRequests-tab"
+                                >                                       
+                                    <div class="myRequests">
+                                        <h3 class="pt-2">My Requests</h3>
+                                        <hr />
                                         <p>
-                                        Abdelkarim ,
-                                        <br />
-                                        Are you sure you want to Delete your account? You will
-                                        lose all your data.
+                                            In this section, all advertisements that you applied to
+                                            are stored
                                         </p>
+                                        <p class="mt-5">There are no requests</p>
                                     </div>
-                                    </div>
-                                    <div
-                                    class="d-flex align-items-end justify-content-end flex-column bd-highlight mb-3"
-                                    >
-                                    <div class="p-2 bd-highlight">
-                                        <button
-                                        type="button"
-                                        class="btn btn-danger"
-                                        data-toggle="modal"
-                                        data-target="#DeleteAcc"
-                                        >
-                                        Delete Account
-                                        </button>
-                                    </div>
-                                    </div>
+                                </div>
+                                <!------------ My requests ------------------>
+                                <!------------ Settings --------------------->
+                                <div class="tab-pane fade" id="v-pills-settings"
+                                    role="tabpanel" aria-labelledby="v-pills-settings-tab"
+                                >
+                                    <div class="Settings">
+                                        <h3 class="pt-2">Settings</h3>
+                                        <hr />
+                                        <h5>Change Password</h5>
+                                        <div>
+                                            <p>Make sure you remember the password to log in</p>   
+                                        </div>
+                                        <form>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label>Old password</label>
+                                                    <input
+                                                        type="password"
+                                                        placeholder="Password"
+                                                        class="form-control"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="form-group">
+                                                <label>New Password</label>
+                                                <input
+                                                    type="password"
+                                                    placeholder="Password"
+                                                    class="form-control"
+                                                />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="form-group">
+                                                <label>Confirm Password</label>
+                                                <input
+                                                    type="password"
+                                                    placeholder="Confirm"
+                                                    class="form-control"
+                                                />
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="form-group">
+                                                    <button type="button" class="btn btn-success">
+                                                        Save
+                                                    </button>
+                                                </div>
+                                            </div>  
+                                        </form>
+                                        <hr />
 
-                                    <div class="row">
-                                    <!-- Modal Delete account -->
-                                    <div
-                                        class="modal fade"
-                                        id="DeleteAcc"
-                                        tabindex="-1"
-                                        aria-labelledby="eDeleteAccLabel"
-                                        aria-hidden="true"
-                                    >
-                                        <div class="modal-dialog modal-dialog-centered">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h5 class="modal-title" id="DeleteAccLabel">
-                                                <i class="bi bi-trash" style="color: red"></i>
+                                        <h5 class="pt-4">
+                                            Delete Account
+                                        </h5>
+                                        <div class="delete-account__body">
+                                            <p>
+                                            Abdelkarim ,
+                                            <br />
+                                            Are you sure you want to Delete your account? You will
+                                            lose all your data.
+                                            </p>
+                                        </div>
+                                        <div class="action">
+                                            <button type="button" class="btn btn-danger"
+                                                data-toggle="modal" data-target="#DeleteAcc"
+                                            >
                                                 Delete Account
-                                            </h5>
-                                            <button
-                                                type="button"
-                                                class="close"
-                                                data-dismiss="modal"
-                                                aria-label="Close"
-                                            >
-                                                <span aria-hidden="true">&times;</span>
                                             </button>
-                                            </div>
-                                            <div class="modal-body">
-                                            Are you sure you want to Delete?
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button
-                                                type="button"
-                                                class="btn btn-secondary"
-                                                data-dismiss="modal"
-                                            >
-                                                Back
-                                            </button>
-                                            <button type="button" class="btn btn-danger">
-                                                Delete
-                                            </button>
-                                            </div>
-                                        </div>
                                         </div>
                                     </div>
-                                    </div>
                                 </div>
-                                </div>
-                                </div>
-                            </div>
-                    <!---------------------------- Settings ----------------------------------------->
-                    </div>  
-                    <!----------------------------- second-content ----------------------------->
-                
+                                <!------------ Settings --------------------->
+                            </div>      
+                        </div> 
+                    </div> 
+                    <!----------------------------- second-content ---------------------------->
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!---------------------------------------- Modal Delete Account --------------------------->
+    <div class="modal fade" id="DeleteAcc"
+        tabindex="-1" aria-labelledby="eDeleteAccLabel" aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="DeleteAccLabel">
+                        <i class="bi bi-trash" style="color: red"></i>
+                        Delete Account
+                    </h5>
+                    <button type="button" class="close"
+                        data-dismiss="modal" aria-label="Close"
+                    >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to Delete?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary"
+                        data-dismiss="modal"
+                    >
+                        Back
+                    </button>
+                    <button type="button" class="btn btn-danger">
+                        Delete
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal Delete Account --------------------------->
+    <!---------------------------------------- Modal Edit Information Profile ----------------->
+    <div class="modal fade" id="modal-edit-information"
+        tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document" >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                    Edit Information
+                    </h5>
+                    <button type="button" class="close"           
+                    data-dismiss="modal" aria-label="Close"
+                    >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row form-group">
+                            <div class="col-sm-12 col-md-6">
+                                <label>First Name </label>
+                                <input
+                                    type="text"
+                                    value="Abdelkarim"
+                                    class="form-control"
+                                />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label>Last Name </label>
+                                <input
+                                type="text"
+                                value="Merabet"
+                                class="form-control"
+                            />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label>Email Address</label>
+                                <input
+                                type="email"
+                                value="merabet@gmail.com"
+                                class="form-control"
+                            />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label>Phone</label>
+                                <input
+                                    type="text"
+                                    value="0778578282"
+                                    class="form-control"
+                                />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label>State</label>
+                                <input
+                                    type="text"
+                                    value="Chlef"
+                                    class="form-control"
+                                />
+                            </div>
+                            <div class="col-sm-12 col-md-6">
+                                <label>City</label>
+                                <input
+                                    type="text"
+                                    value="Chlef"
+                                    class="form-control"
+                                />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer text-center">
+                    <button
+                    type="button"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                    class="btn btn-secondary mr-2"
+                    >
+                    Cancel
+                    </button>
+                    <button type="button" class="btn btn-success">
+                    Update
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- Modal Edit Information Profile ----------------->
+
 
     <!-- footer -->
     <footer class="footer bg-dark text-white pt-5">

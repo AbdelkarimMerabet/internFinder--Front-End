@@ -501,6 +501,8 @@ footer .Links li a:hover {
 
 /*----------------------------media for mobile----------------------------*/
 @media (max-width: 768px) {
+
+/*------------------------- profile student--------------------------- */
   .profile .profile-student .first-content .flex-column {
     flex-direction: row !important;
     justify-content: center;
@@ -512,5 +514,7 @@ footer .Links li a:hover {
   .profile .profile-student .first-content .title .icons{
     font-size:24px;
   }
+/*------------------------- profile student--------------------------- */
+
 }
 /*----------------------------media for mobile----------------------------*/
