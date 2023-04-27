@@ -15,6 +15,26 @@ body {
   background-color: white;
   box-shadow: 0 0.5px 3px rgb(0 0 0 / 0.2);
 }
+
+.footer {
+  padding-top: 130px;
+  position: relative;
+  background: #2c3e50;
+
+}
+
+.footer::after {
+  content: '';
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #f5f6f7;
+  height: 100px;
+}
+
+
 /* footer */
 footer .media li {
   float: left;
@@ -385,6 +405,12 @@ footer .Links li a:hover {
   }
   .category .category-container .category-content .card .category-content__details{
     color: #616161;
+  }
+  /******************* category *********************************/
+
+  /******************* category *********************************/
+  .postings .postings-container .postings-content .card:hover{
+    background-color: #ececec;
   }
   /******************* category *********************************/
 
