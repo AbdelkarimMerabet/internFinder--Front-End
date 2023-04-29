@@ -414,69 +414,31 @@ footer .Links li a:hover {
   }
   /******************* category *********************************/
 
+  /******************* Start Scroll To Top***********************/
+  #scroll-top{
+    scroll-behavior: smooth;
+    width: 50px;
+    height: 40px;
+    color: #DDD;
+    background-color: #0b409c;
+    text-align: center;
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+    z-index: 9999;
+    border-radius: 5px;
+    display: none;
+    scroll-behavior: smooth;
+  }
+  #scroll-top:hover{
+    background-color: #27539e;
+  }
+  /******************* Start Scroll To Top***********************/
+
 /********************* Home *************************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* Home */
-/* .category  {
-  padding-top:100px ;
-  position: relative;
-  background: #2c3e50;
-  border-bottom-left-radius: 50% 7%;
-  border-bottom-right-radius: 50% 7%;
-  height: 800px;
-}
-.category::after  {
-  content: '';
-  border-bottom-left-radius: 50% 50%;
-  border-bottom-right-radius: 50% 50%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-color: #f5f6f7;
-  height: 100px;
-} */
-
-
-/* category */
-.Category a {
-  color: black;
-  text-decoration: none;
-}
-
-/* category */
-
-/* Available internships */
-.internshipDisp {
-  background-color: #e2edff;
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-.internshipDisp .card-post {
-  background-color: white;
-  border-radius: 20px;
-  border: 1px solid rgb(224, 224, 224);
-}
-.internshipDisp a {
-  text-decoration: none;
-}
-/* Available internships */
-
-/* Home */
-
-/********************* profile *************************/
-/********************* profile student *****************/
+/********************* profile **********************************/
+/********************* profile student **************************/
 
 .profile .profile-student {
   border: 1px solid #d6d6d6;
@@ -484,13 +446,6 @@ footer .Links li a:hover {
   margin-bottom: 40px;
 }
 
-.profile .profile-student .first-content .subheader {
-  padding-left: 10px;
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1rem;
-}
 .profile .profile-student .first-content .subheader {
   padding-left: 10px;
   font-size: 0.625rem;
@@ -542,9 +497,20 @@ footer .Links li a:hover {
 
 
 
-/********************* profile student *************************/
+/********************* profile student **************************/
 
-/********************* profile company *************************/
+/********************* profile company **************************/
+.profile .profile-company .second-content {
+  border-left: 1px solid #d6d6d6;
+  background-color: white;
+  min-height: 800px;
+  padding: 2px 10px;
+}
+
+
+
+
+
 .profileCompany .nav {
   justify-content: center;
   background-color: white;

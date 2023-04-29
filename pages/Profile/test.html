@@ -34,12 +34,12 @@
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
         
-        <title>Profile Student</title>
+        <title>Profile Company</title>
     
     </head>
 <body>
-  <!-- nav-bar -->
-  <div class="nav-bar">
+    <!-- nav-bar -->
+    <div class="nav-bar">
     <div class="container">
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="../../index.html"><div class='logo'>       
@@ -51,13 +51,514 @@
             </a>
         </nav>
     </div>
-</div>
- <!-- nav-bar -->
- <!-- start profile page student -->
-  <section class="profile-student-page">
-    
-  </section>
- <!-- end profile page student -->
+    </div>
+    <!-- nav-bar -->
+    <section class="profile">
+        <div class="container">
+            <h5 class="my-4">Account Settings</h5>
+            <div class="card profile-company mb-4">
+                <div class="row">
+                    <!----------------------------- first-content ----------------------------->
+                    <div class="col-sm-12 col-md-3 pr-0">
+                        <div class="first-content">
+                            <div class="nav flex-column nav-pills" id="v-pills-tab"
+                                role="tablist" aria-orientation="vertical" >
+                                <!------------ company ------------>
+                                <button class="nav-link active" id="v-pills-company-tab" type="button"
+                                    data-toggle="pill" data-target="#v-pills-company" role="tab" aria-controls="v-pills-company" aria-selected="true"     
+                                >
+                                    <div class="title">
+                                        <i class="bi bi-building"></i> 
+                                        <span class="title-nav">Company</span>
+                                    </div>
+                                </button>
+                                <!------------ company ------------>
+                                <!------------ offers ------------>
+                                <button class="nav-link" id="v-pills-offers-tab" type="button"
+                                    data-toggle="pill" data-target="#v-pills-offers"  role="tab" aria-controls="v-pills-offers" aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="icons bi bi-menu-button-wide-fill"></i> 
+                                        <span class="title-nav">Offers</span> 
+                                    </div>
+                                </button>
+                                <!------------ offers ------------>
+                                <!------------ My requests ------------>
+                                <button class="nav-link" id="v-pills-requests-tab" type="button"
+                                    data-toggle="pill" data-target="#v-pills-requests" role="tab" aria-controls="v-pills-requests"aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="bi bi-bell"></i>
+                                        <span class="title-nav">Requests</span></spin> 
+                                    </div>   
+                                </button>
+                                <!------------ My requests ------------>
+                                <!------------ Settings ------------>
+                                <button class="nav-link" id="v-pills-settings-tab" type="button"
+                                    data-toggle="pill" data-target="#v-pills-settings"role="tab" aria-controls="v-pills-settings" aria-selected="false"
+                                >
+                                    <div class="title">
+                                        <i class="icons bi bi-gear"></i>
+                                        <span class="title-display">Settings</span> 
+                                    </div>
+                                </button>
+                                <!------------ Settings ------------>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------------------- first-content ----------------------------->
+
+                    <!----------------------------- second-content ---------------------------->
+                    <div class="col-sm-12 col-md-9 pl-0">
+                        <div class="second-content">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <div class="tab-pane fade show active" id="v-pills-company"
+                                    role="tabpanel" aria-labelledby="v-pills-company-tab" 
+                                >
+                                    <!-- Company -->
+                                    <div class="company">
+                                        <h3>Company</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <img src="../../images/CompanyLogo.png" width="150px" class="img-fluid rounded-circle" >
+                                            <div class="col-md-9">
+                                                <div class="title">DJEZZY</div>
+                                                <span><i class="bi bi-building"></i> Company national</span>
+                                                <span><i class="bi bi-geo-alt"></i> Dar El Beida, Alger </span>
+                                                <span><a href="https://www.djezzy.dz/"><i class="bi bi-globe"></i> Website</a></span>
+                                                <span>
+                                                    <ul class="media list-unstyled">
+                                                    <li><a href="https://www.facebook.com/djezzy"><i class="bi bi-facebook"></i></a></li>
+                                                    <li><a href="https://twitter.com/djezzy"><i class="bi bi-twitter"></i></a></li>
+                                                    <li><a href="https://www.linkedin.com/company/djezzy"><i class="bi bi-linkedin"></i></a></li>
+                                                    </ul>
+                                                </span>
+                                            </div>
+                                            
+                                        </div>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="info col-md-4">
+                                            <h5><i class="bi bi-building"></i> Since 2001</h5> 
+                                            <h5><i class="bi bi-people"></i> 2745 Employees</h5>
+                                            <h5><i class="bi bi-globe-europe-africa"></i> Algeria</h5>
+                                            </div>
+                                            <div class="Description col-md-6">
+                                                <h5>
+                                                    who are we ?
+                                                </h5>
+                                                <hr></hr>
+                                                <p>Djezzy, opérateur de télécommunications algérien a été créé en juillet 2001. Leader dans le domaine de la téléphonie mobile, avec plus de 14 millions d'abonnés au mois d’août 2022, l’entreprise fournit une vaste gamme de services tels que le prépayés, le post-payé, la Data ainsi que les services à valeur ajoutée et le SUT.</p>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Company -->
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-offers" 
+                                    role="tabpanel" aria-labelledby="v-pills-offers-tab"
+                                >
+                                    <!-- Offers -->
+                                    <div class="Offers">
+                                        <h3>Offers</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-xs-12 col-lg-6 mb-2">
+                                                <!-- 2 exemple card-education -->
+                                            <div class="d-flex flex-column bd-highlight mt-3 mb-3">
+                                                <div class="card  mb-2">
+                                                    <div class="d-flex justify-content-between flex-row bd-highlight" >
+                                                        <div class="title">
+                                                            <h5 class="card-title">
+                                                                <i class="bi bi-mortarboard"></i>
+                                                                Master,Informatique
+                                                            </h5>
+                                                        </div>
+                                                        <div class="action">
+                                                            <button class="btn btn-outline-danger">
+                                                                <i class="bi bi-trash3-fill"></i>
+                                                            </button>
+                                                            <button type="button" class="btn btn-outline-secondary"
+                                                                data-toggle="modal" data-target="#modal-edit-education"
+                                                            >
+                                                                <i class="bi bi-pencil-fill"></i>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <h6 class="card-subtitle mb-2 text-muted text-capitalize" >
+                                                            <i class="bi bi-building"></i>
+                                                            hassiba benbouali of chlef
+                                                        </h6>
+                                                    </div>
+                                                    <div>
+                                                        <i class="bi bi-calendar-check bi-2x"></i>
+                                                        9/1/2018-6/1/2021
+                                                    </div>
+                                                    <div>
+                                                        <p class="card-text">
+                                                            In Laravel, the SRP can be applied by creating
+                                                            smaller, focused classes that handle specific
+                                                            tasks. For example, rather than having a single
+                                                            class
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- 2 exemple card-education -->
+                                            </div>
+                                            
+                                            <!-- example  Offers -->
+                                            <div class="col-xs-12 col-lg-6 mb-2">
+                                                <div class="card-post  ">
+                                                <div class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                    <div class="title"><a href="#"><h5>data entry operator</h5></a></div>
+                                                    <div class="d-flex justify-content-between  nowrap">
+                                                        <button class="btn btn-outline-danger ">
+                                                            <i class="bi bi-x-lg" > </i>
+                                                        </button>
+                                                        <button class="btn btn-outline-success">
+                                                            <i class="bi bi-pencil-fill"> </i>
+                                                        </button>
+                                                    </div>  
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="row ">
+                                                    <div class="col-sm-6">
+                                                    <div >
+                                                        <i class="bi bi-building"></i>
+                                                        Djezzy
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Alger, Algérie
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-list-ol"></i>
+                                                        Number of seats 02
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date Start 09/09/2023
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date End 09/09/2024
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    <div class="col-sm-3 offset-sm-2">
+                                                    <img src="../../images/CompanyLogo.png" class="d-none d-sm-block img-responsive" width="100px" height="100px">
+                                                    </div> 
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Offers -->
+
+                                            <!-- example  Offers -->
+                                            <div class="col-xs-12 col-lg-6 mb-2">
+                                                <div class="card-post  ">
+                                                <div class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                    <div class="title"><a href="#"><h5>data entry operator</h5></a></div>
+                                                    <div class="d-flex justify-content-between  nowrap">
+                                                        <button class="btn btn-outline-danger ">
+                                                            <i class="bi bi-x-lg" > </i>
+                                                        </button>
+                                                        <button class="btn btn-outline-success">
+                                                            <i class="bi bi-pencil-fill"> </i>
+                                                        </button>
+                                                    </div>  
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="row ">
+                                                    <div class="col-sm-6">
+                                                    
+                                                    
+                                                    <div >
+                                                        <i class="bi bi-building"></i>
+                                                        Djezzy
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Alger, Algérie
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-list-ol"></i>
+                                                        Number of seats 02
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date Start 09/09/2023
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date End 09/09/2024
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    <div class="col-sm-3 offset-sm-2">
+                                                    <img src="../../images/CompanyLogo.png" class="d-none d-sm-block img-responsive" width="100px" height="100px">
+                                                    </div> 
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Offers -->
+
+                                            <!-- example  Offers -->
+                                            <div class="col-xs-12 col-lg-6 mb-2">
+                                                <div class="card-post">
+                                                <div  class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                    <div class="title"><a href="#"><h5>Security Network Engineer</h5></a></div>
+                                                    <div class="d-flex justify-content-between  nowrap">
+                                                        <button class="btn btn-outline-danger ">
+                                                        <i class="bi bi-x-lg" > </i>
+                                                        </button>
+                                                        <button class="btn btn-outline-success">
+                                                        <i class="bi bi-pencil-fill"> </i>
+                                                    </button>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="row">
+                                                    <div class=" col-sm-6">
+                                                    
+                                                    
+                                                    <div >
+                                                        <i class="bi bi-building"></i>
+                                                        Djezzy
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Alger, Algérie
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-list-ol"></i>
+                                                        Number of seats 01
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date Start 01/06/2023
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date End 01/06/2024
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    <div class="col-sm-3 offset-sm-2">
+                                                    <img src="../../images/CompanyLogo.png" class="d-none d-sm-block" width="100px" height="100px">
+                                                    </div> 
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Offers -->
+
+                                            <!-- example  Offers -->
+                                            <div class="col-xs-12 col-lg-6 mb-2">
+                                                <div class="card-post  ">
+                                                <div  class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                    <div class="title"><a href="#"><h5>data entry operator</h5></a></div>
+                                                    <div class="d-flex justify-content-between  nowrap">
+                                                        <button class="btn btn-outline-danger ">
+                                                        <i class="bi bi-x-lg" > </i>
+                                                        </button>
+                                                        <button class="btn btn-outline-success">
+                                                        <i class="bi bi-pencil-fill"> </i>
+                                                    </button>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <hr>
+                                                <div class="row ">
+                                                    <div class=" col-sm-6">
+                                                    
+                                                    
+                                                    <div >
+                                                        <i class="bi bi-building"></i>
+                                                        Djezzy
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Alger, Algérie
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-list-ol"></i>
+                                                        Number of seats 02
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date Start 09/09/2023
+                                                    </div>
+                                                    <div >
+                                                        <i class="bi bi-calendar"></i>
+                                                        Date End 09/09/2024
+                                                    </div>
+                                                    
+                                                    </div>
+                                                    <div class="col-sm-3 offset-sm-2">
+                                                    <img src="../../images/CompanyLogo.png" class="d-none d-sm-block" width="100px" height="100px">
+                                                    </div> 
+                                                </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Offers -->
+
+                                        </div>
+                                        <hr>   
+                                    </div>
+                                    <!-- Offers -->
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-requests" 
+                                    role="tabpanel" aria-labelledby="v-pills-requests-tab"
+                                >
+                                    <!-- Requests -->
+                                    <div class="Requests">
+                                        <h3>Requests</h3>
+                                        <hr>
+                                        <div class="row">
+                                            <!-- example  Requests -->
+                                            <div class="col-xs-12 col-md-12 mb-2">
+                                                <div class="card-requests ">
+                                                    <div  class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                        <div class="">
+                                                            <a href="">Abdelkarim </a> applied for<a href="#"> data entry operator</a>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between  nowrap">
+                                                            <button class="btn btn-outline-danger">
+                                                                <i class="bi bi-x-lg" ></i>
+                                                            </button>
+                                                            <button class="btn btn-outline-success">
+                                                                <i class="bi bi-check2"></i>
+                                                            </button>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Requests -->
+
+                                            <!-- example  Requests -->
+                                            <div class="col-xs-12 col-md-12 mb-2">
+                                                <div class="card-requests ">
+                                                    <div  class="d-flex justify-content-between  nowrap align-items-center bd-highlight ">  
+                                                        <div class="">
+                                                            <a href="">Abdelkadir </a> applied for<a href="#"> Cyber Security Network Engineer</a>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between  nowrap">
+                                                            <button class="btn btn-outline-danger">
+                                                                <i class="bi bi-x-lg" ></i>
+                                                            </button>
+                                                            <button class="btn btn-outline-success">
+                                                                <i class="bi bi-check2"></i>
+                                                            </button>
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- example  Requests -->
+                                        </div>   
+                                    </div>
+                                    <!-- Requests -->
+                                </div>
+                                <div class="tab-pane fade" id="v-pills-settings" 
+                                    role="tabpanel" aria-labelledby="v-pills-settings-tab"
+                                >
+                                    <!-- Settings -->
+                                    <div class="profile-settings">
+                                        <div class="profile-settings__title">
+                                            <h3>Settings</h3>
+                                        </div>
+                                        <hr>
+                                        <div class="profile-password">
+                                            <div class="profile-password__title">
+                                                <h5>Change Password</h5>
+                                                <p>Make sure you remember the password to log in</p>  
+                                            </div>
+                                            <div class="profile-password__content">
+                                                <form method="">
+                                                    <div class="row">
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <label>Old password</label>
+                                                                    <input type="password" placeholder="Password" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <label>New Password</label>
+                                                                    <input type="password" placeholder="Password" class="form-control">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <label>Confirm Password</label>
+                                                                    <input type="password" placeholder="Confirm" class="form-control ">
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="col-md-12">
+                                                                    <button type="button" class="btn btn-success" id="">
+                                                                        Save
+                                                                    </button> 
+                                                                </div>
+                                                            </div> 
+                                                        </div>
+                                                    </div>
+
+                                                </form>
+                                            </div>
+
+                                        </div>
+                                        <hr>
+                                        <div class="profile-delete">
+                                            <div class="profile-delete__title">
+                                                <h5 >Delete Account</h5>
+                                                <p> Are you sure you want to Delete your account? You will lose all your data.
+                                                </p>
+                                            </div>
+                                            <div class="profile-password__content">
+                                                <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#DeleteAcc">
+                                                    Delete Account
+                                                </button>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                    <!-- Settings -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!----------------------------- second-content ---------------------------->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-------------------- Start Modal Delete account --------------------------------------------------------->
+    <div class="modal fade " id="DeleteAcc" tabindex="-1" aria-labelledby="eDeleteAccLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="DeleteAccLabel"><i class="bi bi-trash"style="color:red;"></i> Delete Account</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+            Are you sure you want to Delete?
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-danger">Delete</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-------------------- Start Modal Delete account --------------------------------------------------------->
   
     
     <script type="text/javascript">
