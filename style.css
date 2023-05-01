@@ -506,11 +506,6 @@ footer .Links li a:hover {
   min-height: 800px;
   padding: 2px 10px;
 }
-
-
-
-
-
 .profileCompany .nav {
   justify-content: center;
   background-color: white;
@@ -525,7 +520,6 @@ footer .Links li a:hover {
   margin-bottom: 20px;
   font-size: 30px;
 }
-
 .profileCompany .company .media {
   font-size: 30px;
 }
@@ -555,7 +549,6 @@ footer .Links li a:hover {
   color: white;
   text-decoration: none;
 }
-
 .profileCompany .fixed-size {
   height: 200px !important;
   width: 100%;
@@ -566,7 +559,14 @@ footer .Links li a:hover {
 }
 /********************* profile company *************************/
 
-/********************* profile *************************/
+/********************* profile **********************************/
+
+/********************* posts **********************************/
+.posts .posts-container .posts-content .info-post{
+  display: inline-block;
+  padding-right: 5px;
+}
+/********************* posts **********************************/
 
 
 
@@ -593,7 +593,3 @@ footer .Links li a:hover {
 
 
 
-.info-post{
-  display: inline-block;
-  padding-right: 5px;
-}
