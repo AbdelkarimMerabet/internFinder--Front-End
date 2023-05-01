@@ -272,174 +272,6 @@
                                             </div>
                                             <!-- 2 exemple card-education -->
 
-                                            <!-- Start Modal Add Education -->
-                                            <div class="modal fade" id="modal-add-education"
-                                                tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
-                                            >
-                                                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLongTitle" >
-                                                                Add a Education
-                                                            </h5>
-                                                            <button type="button" class="close" id=""
-                                                                data-dismiss="modal" aria-label="Close"
-                                                            >
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form>
-                                                                <div class="row form-group">
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label>Degre</label>
-                                                                        <select class="custom-select" id="inputGroupSelectDegre">
-                                                                        <option selected>Licence</option>
-                                                                        <option value="1">Master</option>
-                                                                        <option value="2">PHD</option>
-                                                                        <option value="1">L1</option>
-                                                                        <option value="2">L2</option>
-                                                                        <option value="1">L3</option>
-                                                                        <option value="2">BAC</option>
-                                                                        <option value="1">CFPS</option>
-                                                                        <option value="2">CAP</option>
-                                                                        <option selected>CMP</option>
-                                                                        <option value="1">BT</option>
-                                                                        <option value="2">TS</option>
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-8">
-                                                                        <label>School</label>
-                                                                        <input type="text" class="form-control"id="inputGroupDegre" placeholder="Enter school / university" value="" />
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label>Speciality</label>
-                                                                        <input type="text" class="form-control" placeholder="Enter speciality" id="inputGroupDegre"/>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label for="StartDate" class="col-form-label" >
-                                                                            Start Date
-                                                                        </label>
-                                                                        <input type="text" id="start-date-education" class="form-control"/>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label for="EndDate" class="col-form-label">
-                                                                            End Date
-                                                                        </label>
-                                                                        <input type="text" id="end-date-education" class="form-control"/>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-12">
-                                                                        <label for="">Description</label>
-                                                                        <textarea class="form-control fixed-size__Description" id="comment"
-                                                                            oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);">
-                                                                        </textarea>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer text-center">
-                                                        <button
-                                                            type="button"
-                                                            class="btn btn-secondary mr-2"
-                                                            data-dismiss="modal"
-                                                            aria-label="Close"
-                                                        >
-                                                            Cancel
-                                                        </button>
-                                                        <button type="button" class="btn btn-primary">
-                                                            Add
-                                                        </button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Modal Add Education -->
-
-                                            <!-- Start Modal Edit Education -->
-                                            <div class="modal fade" id="modal-edit-education"
-                                                tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
-                                            >
-                                                <div class="modal-dialog modal-dialog-centered modal-lg"
-                                                    role="document"
-                                                >
-                                                    <div class="modal-content">
-                                                        <div class="modal-header">
-                                                            <h5 class="modal-title" id="exampleModalLongTitle">
-                                                                Edit a Education
-                                                            </h5>
-                                                            <button type="button" class="close"
-                                                                data-dismiss="modal" aria-label="Close"
-                                                            >
-                                                                <span aria-hidden="true">&times;</span>
-                                                            </button>
-                                                        </div>
-                                                        <div class="modal-body">
-                                                            <form>
-                                                                <div class="row form-group">
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label>Degre</label>
-                                                                        <select class="custom-select" id="inputGroupSelectDegre">
-                                                                        <option selected>Licence</option>
-                                                                        <option value="1">Master</option>
-                                                                        <option value="2">PHD</option>
-                                                                        <option value="1">L1</option>
-                                                                        <option value="2">L2</option>
-                                                                        <option value="1">L3</option>
-                                                                        <option value="2">BAC</option>
-                                                                        <option value="1">CFPS</option>
-                                                                        <option value="2">CAP</option>
-                                                                        <option selected>CMP</option>
-                                                                        <option value="1">BT</option>
-                                                                        <option value="2">TS</option>
-                                                                        </select>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-8">
-                                                                        <label>School</label>
-                                                                        <input type="text" class="form-control text-capitalize" id="inputGroupDegre" value="hassiba benbouali of chlef "/>
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label>Speciality</label>
-                                                                        <input type="text" class="form-control" value="Informatique" id="inputGroupDegre" />
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label for="StartDate" class="col-form-label">
-                                                                            Start Date
-                                                                        </label>
-                                                                        <input type="text" class="form-control" id="start-date-education__edit" value="08/08/2018" />
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-4">
-                                                                        <label for="EndDate" class="col-form-label">
-                                                                            End Date
-                                                                        </label>
-                                                                        <input type="text" class="form-control" id="end-date-education__edit"value="02/02/2022" />  
-                                                                    </div>
-                                                                    <div class="col-sm-12 col-md-12">
-                                                                        <label for="">Description</label>
-                                                                        <textarea class="form-control fixed-size__Description" id="comment"
-                                                                            oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);"
-                                                                        >In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                        <div class="modal-footer text-center">
-                                                        <button
-                                                            type="button"
-                                                            class="btn btn-secondary mr-2"
-                                                            data-dismiss="modal"
-                                                            aria-label="Close"
-                                                        >
-                                                            Cancel
-                                                        </button>
-                                                        <button type="button" class="btn btn-success">
-                                                            Update
-                                                        </button>
-                                                        
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Modal Edit Education -->
                                         </div>
                                         <!------ Education ----------------------->
                                         <hr/>
@@ -1125,6 +957,174 @@
         </div>
     </div>
     <!---------------------------------------- Modal Edit Information Profile ----------------->
+    <!---------------------------------------- Start Modal Add Education ---------------------->
+    <div class="modal fade" id="modal-add-education"
+        tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle" >
+                        Add a Education
+                    </h5>
+                    <button type="button" class="close" id=""
+                        data-dismiss="modal" aria-label="Close"
+                    >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row form-group">
+                            <div class="col-sm-12 col-md-4">
+                                <label>Degre</label>
+                                <select class="custom-select" id="inputGroupSelectDegre">
+                                    <option selected>Licence</option>
+                                    <option value="1">Master</option>
+                                    <option value="2">PHD</option>
+                                    <option value="3">L1</option>
+                                    <option value="4">L2</option>
+                                    <option value="5">L3</option>
+                                    <option value="6">BAC</option>
+                                    <option value="7">CFPS</option>
+                                    <option value="8">CAP</option>
+                                    <option value="9">CMP</option>
+                                    <option value="10">BT</option>
+                                    <option value="11">TS</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <label>School</label>
+                                <input type="text" class="form-control"id="inputGroupDegre" placeholder="Enter school / university" value="" />
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label>Speciality</label>
+                                <input type="text" class="form-control" placeholder="Enter speciality" id="inputGroupDegre"/>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label for="StartDate" class="col-form-label" >
+                                    Start Date
+                                </label>
+                                <input type="text" id="start-date-education" class="form-control"/>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label for="EndDate" class="col-form-label">
+                                    End Date
+                                </label>
+                                <input type="text" id="end-date-education" class="form-control"/>
+                            </div>
+                            <div class="col-sm-12 col-md-12">
+                                <label for="">Description</label>
+                                <textarea class="form-control fixed-size__Description" id="comment"
+                                    oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);">
+                                </textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer text-center">
+                <button
+                    type="button"
+                    class="btn btn-secondary mr-2"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                    Cancel
+                </button>
+                <button type="button" class="btn btn-primary">
+                    Add
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- End Modal Add Education ------------------------>
+
+    <!---------------------------------------- Start Modal Edit Education ------------------------>
+    <div class="modal fade" id="modal-edit-education"
+        tabindex="-1" role="dialog" aria-labelledby="ModalEducationTitle" aria-hidden="true"
+    >
+        <div class="modal-dialog modal-dialog-centered modal-lg"
+            role="document"
+        >
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">
+                        Edit a Education
+                    </h5>
+                    <button type="button" class="close"
+                        data-dismiss="modal" aria-label="Close"
+                    >
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="row form-group">
+                            <div class="col-sm-12 col-md-4">
+                                <label>Degre</label>
+                                <select class="custom-select" id="inputGroupSelectDegre">
+                                <option selected>Licence</option>
+                                <option value="1">Master</option>
+                                <option value="2">PHD</option>
+                                <option value="1">L1</option>
+                                <option value="2">L2</option>
+                                <option value="1">L3</option>
+                                <option value="2">BAC</option>
+                                <option value="1">CFPS</option>
+                                <option value="2">CAP</option>
+                                <option selected>CMP</option>
+                                <option value="1">BT</option>
+                                <option value="2">TS</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                <label>School</label>
+                                <input type="text" class="form-control text-capitalize" id="inputGroupDegre" value="hassiba benbouali of chlef "/>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label>Speciality</label>
+                                <input type="text" class="form-control" value="Informatique" id="inputGroupDegre" />
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label for="StartDate" class="col-form-label">
+                                    Start Date
+                                </label>
+                                <input type="text" class="form-control" id="start-date-education__edit" value="08/08/2018" />
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <label for="EndDate" class="col-form-label">
+                                    End Date
+                                </label>
+                                <input type="text" class="form-control" id="end-date-education__edit"value="02/02/2022" />  
+                            </div>
+                            <div class="col-sm-12 col-md-12">
+                                <label for="">Description</label>
+                                <textarea class="form-control fixed-size__Description" id="comment"
+                                    oninput="limitWords(event)" onkeypress="return imposeMaxLength(this, 100);"
+                                >In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class</textarea>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer text-center">
+                <button
+                    type="button"
+                    class="btn btn-secondary mr-2"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                >
+                    Cancel
+                </button>
+                <button type="button" class="btn btn-success">
+                    Update
+                </button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------- End Modal Edit Education ------------------------>
 
 
     <!-- footer -->

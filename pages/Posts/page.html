@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="../../images/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Posts</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------------------------------------------- nav-bar ------------------------------------>
+    <div class="nav-bar bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                  <a class="navbar-brand" href="index.html"><div class='logo'>       
+                          <div class='first-child'>Intern</div><div class='last-child'>Finder</div>
+                  </div></a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item ">
+                        <a class="nav-link" href="../../index.html">Home </a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="pages/Posts/page.html">Posts <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+      
+                    </ul>
+                    
+                    <ul class="navbar-nav ">
+                      
+                      <li class="nav-item mx-2">
+                        <a href="pages/Login/login.html">
+                          <button class="btn2   my-2 my-sm-0"  type="submit">Login</button>
+                        </a>
+                        
+                      </li>
+                      <li class="nav-item mx-2">
+                        <a href="pages/Register/Register.html">
+                          <button class="btn1  my-2 my-sm-0" type="submit">Register</button>
+                        </a>
+                        </li>
+                    </ul>
+                    
+                  </div>
+            </nav>
+        </div>
+    </div> 
+    <!-------------------------------------------- nav-bar ------------------------------------>
+    <section class="posts">
+        <div class="container">
+            <div class="posts-search card p-2 mb-3 mt-3">
+                <h3 class="search-header">Search for internship in Algeria</h3>
+                <div class="search-body">
+                    <form method="" action="">
+                    <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <label >what</label>
+                        <input type="text" placeholder="Internship title " class="form-control">
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <label >where</label>
+                        <input type="text" placeholder="All places" class="form-control">
+                    </div>
+                    <div class="col-md-4 col-xs-12 ">
+                        <label ></label>
+                        <button type="submit" class="btn1 mt-2" id="">
+                            <i class="bi bi-search"></i>
+                            Search
+                        </button>
+                    </div>
+                    </div>
+
+                    </form>
+                </div>
+                <div class="search-footer pt-2">
+                    <p>07 internships found</p>
+                </div>
+            </div>
+            <div class="posts-content">
+                <div class="row ">
+                    <div class="col-3">
+                        <div class="posts-filter card">
+                            <div class="header-section p-2">
+                                <h6 class="title">Filters</h6>
+                                <p>0 filters selected</p>
+                            </div>
+                            <div class="section-body">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header" id="heading-region">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-region" aria-expanded="true" aria-controls="collapse-region">
+                                                Region
+                                            </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapse-region" class="collapse show" aria-labelledby="heading-region" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="region-alger">
+                                                        <label class="form-check-label" for="exampleCheck1">Alger</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="region-oran">
+                                                        <label class="form-check-label" for="exampleCheck1">Oran</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="region-chlef">
+                                                        <label class="form-check-label" for="exampleCheck1">Chlef</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading-experience">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-experience" aria-expanded="false" aria-controls="collapse-experience">
+                                                    Years of experience
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapse-experience" class="collapse" aria-labelledby="heading-experience" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="experience-1">
+                                                        <label class="form-check-label" for="exampleCheck1">1 year</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="experience-2">
+                                                        <label class="form-check-label" for="exampleCheck1">2 years</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="experience-3">
+                                                        <label class="form-check-label" for="exampleCheck1">3 years</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="experience-4">
+                                                        <label class="form-check-label" for="exampleCheck1">4 years</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="experience-5">
+                                                        <label class="form-check-label" for="exampleCheck1">5 years or more</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="heading-category">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-category" aria-expanded="false" aria-controls="collapse-category">
+                                                    Category
+                                                </button>
+                                            </h2>
+                                      </div>
+                                      <div id="collapse-category" class="collapse" aria-labelledby="heading-category" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="category-computer">
+                                                        <label class="form-check-label" for="exampleCheck1">Computer science</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="category-telecom">
+                                                        <label class="form-check-label" for="exampleCheck1">Telecom</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="category-services">
+                                                        <label class="form-check-label" for="exampleCheck1">Services</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading-permanence">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-permanence" aria-expanded="false" aria-controls="collapse-permanence">
+                                                    Permanence
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapse-permanence" class="collapse" aria-labelledby="heading-permanence" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="permanence-full">
+                                                        <label class="form-check-label" for="exampleCheck1">full time</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="permanence-part">
+                                                        <label class="form-check-label" for="exampleCheck1">part time</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading-posted">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-posted" aria-expanded="false" aria-controls="collapse-posted">
+                                                    Date Posted
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapse-posted" class="collapse" aria-labelledby="heading-posted" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="posted-today">
+                                                        <label class="form-check-label" >Today</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="posted-week">
+                                                        <label class="form-check-label" >This week</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="posted-month">
+                                                        <label class="form-check-label" >This month</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading-degree">
+                                            <h2 class="mb-0">
+                                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-degree" aria-expanded="false" aria-controls="collapse-degree">
+                                                    Degree
+                                                </button>
+                                            </h2>
+                                        </div>
+                                        <div id="collapse-degree" class="collapse" aria-labelledby="heading-degree" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-licence">
+                                                        <label class="form-check-label" >Licence</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-master">
+                                                        <label class="form-check-label" >Master</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-phd">
+                                                        <label class="form-check-label" >PHD</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-l1">
+                                                        <label class="form-check-label" >L1</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-l2">
+                                                        <label class="form-check-label" >L2</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-l3">
+                                                        <label class="form-check-label" >L3</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-bac">
+                                                        <label class="form-check-label" >BAC</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-cfps">
+                                                        <label class="form-check-label" >CFPS</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-cap">
+                                                        <label class="form-check-label" >CAP</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-cmp">
+                                                        <label class="form-check-label" >CMP</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-bt">
+                                                        <label class="form-check-label" >BT</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="degree-ts">
+                                                        <label class="form-check-label" >TS</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header" id="heading-languages">
+                                          <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-languages" aria-expanded="false" aria-controls="collapse-languages">
+                                                Languages
+                                            </button>
+                                          </h2>
+                                        </div>
+                                        <div id="collapse-languages" class="collapse" aria-labelledby="heading-languages" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <form action="" method="">
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="language-french">
+                                                        <label class="form-check-label" for="exampleCheck1">French</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="language-arabic">
+                                                        <label class="form-check-label" for="exampleCheck1">Arabic</label>
+                                                    </div>
+                                                    <div class="form-group form-check">
+                                                        <input type="checkbox" class="form-check-input" id="language-english">
+                                                        <label class="form-check-label" for="exampleCheck1">English</label>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="posts-content card p-3">
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                                <div class="col-12 mb-3">
+                                    <div class="card p-2">
+                                        <div class="row align-items-center">
+                                            <div class="col-sm-3 d-none d-sm-block">
+                                                <img src="../../images/CompanyLogo.png" class="img-fluid rounded-circle">
+                                            </div>
+                                            <div class="col-sm-9  col-xs-12">
+                                                <h5 class="card-title">
+                                                    <a href="">Data entry operator</a> 
+                                                </h5>
+                                                <p class="card-subtitle">
+                                                    <i class="bi bi-building text-muted"></i>
+                                                    <a href="">DJEZZY</a> 
+                                                </p>
+                                                <p class="card-subtitle text-muted pt-1">
+                                                    <i class="bi bi-clock"></i>
+                                                    2 minutes ago
+                                                </p>
+                                                <div class="flex">
+                                                    <span class="info-post text-muted">
+                                                        <i class="bi bi-geo-alt"></i>
+                                                        Dar El Beida, Alger
+                                                        
+                                                    </span>
+                                                    <span class="info-post text-muted">
+                                                        From 09/09/2023 To 09/09/2024  
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                            <nav aria-label="navigation">
+                                <ul class="pagination justify-content-end">
+                                <li class="page-item disabled">
+                                    <a class="page-link">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                    <a class="page-link" href="#">Next</a>
+                                </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+</body>
+</html>
