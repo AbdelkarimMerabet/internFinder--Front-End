@@ -408,11 +408,29 @@ footer .Links li a:hover {
   }
   /******************* category *********************************/
 
-  /******************* category *********************************/
+  /******************* location *********************************/
+  .location .location-container .location-content a{
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom:  10px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .location .location-container .location-content a:hover{
+    color: white;
+    background-color: #a5c6ff;
+  }
+
+  /******************* location *********************************/
+
+  /******************* postings *********************************/
   .postings .postings-container .postings-content .card:hover{
     background-color: #ececec;
   }
-  /******************* category *********************************/
+  /******************* postings *********************************/
 
   /******************* Start Scroll To Top***********************/
   #scroll-top{
