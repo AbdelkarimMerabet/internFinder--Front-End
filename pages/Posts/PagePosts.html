@@ -66,7 +66,7 @@
     <!-------------------------------------------- nav-bar ------------------------------------>
     <section class="posts">
         <div class="container">
-            <div class="posts-search card p-2 mb-3 mt-3">
+            <div class="posts-search card p-3 mb-3 mt-3">
                 <h3 class="search-header">Search for internship in Algeria</h3>
                 <div class="search-body">
                     <form method="" action="">
@@ -96,10 +96,13 @@
             </div>
             <div class="posts-container">
                 <div class="row ">
-                    <div class="col-3">
+                    <div class="col-4">
                         <div class="posts-filter card">
                             <div class="header-section p-2">
-                                <h6 class="title">Filters</h6>
+                                <h6 class="title">
+                                    <i class="bi bi-filter-left"></i>
+                                    Filters
+                                </h6>
                                 <p>0 filters selected</p>
                             </div>
                             <div class="section-body">
@@ -108,7 +111,10 @@
                                       <div class="card-header" id="heading-region">
                                         <h2 class="mb-0">
                                             <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-region" aria-expanded="true" aria-controls="collapse-region">
-                                                Region
+                                                <div class="d-flex justify-content-between">
+                                                    <span>Region</span>
+                                                    <i class="bi bi-caret-down"></i>
+                                                </div>
                                             </button>
                                         </h2>
                                       </div>
@@ -135,7 +141,10 @@
                                         <div class="card-header" id="heading-experience">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-experience" aria-expanded="false" aria-controls="collapse-experience">
-                                                    Years of experience
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Years of experience</span>
+                                                        <i class="bi bi-caret-down"></i>
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -170,7 +179,10 @@
                                       <div class="card-header" id="heading-category">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-category" aria-expanded="false" aria-controls="collapse-category">
-                                                    Category
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Category</span>
+                                                        <i class="bi bi-caret-down"></i>
+                                                    </div>
                                                 </button>
                                             </h2>
                                       </div>
@@ -197,7 +209,10 @@
                                         <div class="card-header" id="heading-permanence">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-permanence" aria-expanded="false" aria-controls="collapse-permanence">
-                                                    Permanence
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Permanence</span>
+                                                        <i class="bi bi-caret-down"></i>
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -220,7 +235,10 @@
                                         <div class="card-header" id="heading-posted">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-posted" aria-expanded="false" aria-controls="collapse-posted">
-                                                    Date Posted
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Date Posted</span>
+                                                        <i class="bi bi-caret-down"></i>
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -247,7 +265,10 @@
                                         <div class="card-header" id="heading-degree">
                                             <h2 class="mb-0">
                                                 <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-degree" aria-expanded="false" aria-controls="collapse-degree">
-                                                    Degree
+                                                    <div class="d-flex justify-content-between">
+                                                        <span>Degree</span>
+                                                        <i class="bi bi-caret-down"></i>
+                                                    </div>
                                                 </button>
                                             </h2>
                                         </div>
@@ -310,7 +331,10 @@
                                         <div class="card-header" id="heading-languages">
                                           <h2 class="mb-0">
                                             <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse-languages" aria-expanded="false" aria-controls="collapse-languages">
-                                                Languages
+                                                <div class="d-flex justify-content-between">
+                                                    <span>Languages</span>
+                                                    <i class="bi bi-caret-down"></i>
+                                                </div>
                                             </button>
                                           </h2>
                                         </div>
@@ -337,7 +361,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-8">
                         <div class="posts-content card p-3">
                             <div class="row">
                                 <div class="col-12 mb-3">
@@ -581,10 +605,54 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            
+            </div>   
         </div>
     </section>
+
+    <!-------------------------------------------- footer ------------------------------------>
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="logo">internFinder</div>
+              <p class="mt-3">internFinder it is a web application intended 
+                for people seeking internship and
+                companies 
+                looking for interns.
+              </p>
+            </div>
+            <div class="col-md-3">
+              <h5>Links</h5>
+              <ul class="Links list-unstyled">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Research</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Contact Us</h5>
+              <ul class="Links list-unstyled ">
+                <li><i class="bi bi-telephone-fill"></i> (+213)78578282</li>
+                <li><i class="bi bi-envelope"></i> internFinder@gmail.com</li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>Follow us</h5>
+              <ul class="media list-unstyled">
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="text-center text-muted">Copyright &copy; 2023 All Rights Reserved. Owned by intrenFinder.</div>
+      </footer>
+      <!-------------------------------------------- footer ------------------------------------>
+  
 
 
 </body>
