@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="../../images/Logo.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+    <title>Company evaluation | internFinder</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-------------------------------------------- nav-bar ------------------------------------>
+    <div class="nav-bar bg-light">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="../../index.html"><div class='logo'>       
+                        <div class='first-child'>Intern</div><div class='last-child'>Finder</div>
+                </div></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="../../index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Posts/PagePosts.html">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Posts/createPost.html">Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="../Faq/page.html">FAQ</a>
+                    </li>
+    
+                    </ul>
+                    
+                    <ul class="navbar-nav ">
+                    
+                    <li class="nav-item mx-2">
+                        <a href="pages/Login/login.html">
+                        <button class="btn2   my-2 my-sm-0"  type="submit">Login</button>
+                        </a>
+                        
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a href="pages/Register/Register.html">
+                        <button class="btn1  my-2 my-sm-0" type="submit">Register</button>
+                        </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-------------------------------------------- nav-bar ------------------------------------>
+
+    <section class="company-ev pt-4">
+        <div class="container">
+            <div class="card p-4">
+                <div class="title pb-2">
+                    <h3>Company evaluation</h3>
+                </div>
+                <form method="">
+                    <div class="questions">
+                        <div class="question-1 form-group">
+                            <h5 class="title">Respect Rules and Conditions :</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="rules-conditions-company_1" 
+                                type="radio" name="rules-conditions-company_Options" value="rules-conditions-company_1"
+                                >
+                                <label class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="rules-conditions-company_2"
+                                type="radio" name="rules-conditions-company_Options"  value="rules-conditions-company_2"
+                                >
+                                <label class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="rules-conditions-company_3"
+                                type="radio" name="rules-conditions-company_Options"  value="rules-conditions-company_3"
+                                >
+                                <label class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="rules-conditions-company_4"
+                                type="radio" name="rules-conditions-company_Options"  value="rules-conditions-company_4"
+                                >
+                                <label class="form-check-label">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="rules-conditions-company_5"
+                                type="radio" name="rules-conditions-company_Options" value="rules-conditions-company_5"
+                                >
+                                <label class="form-check-label">5</label>
+                            </div>
+                        </div>
+                        <div class="question-2 form-group">
+                            <h5 class="title">Work Environment :</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="work-environment_1" 
+                                type="radio" name="work-environment_Options" value="work-environment_1"
+                                >
+                                <label class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="work-environment_2"
+                                type="radio" name="work-environment_Options"  value="work-environment_2"
+                                >
+                                <label class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="work-environment_3"
+                                type="radio" name="work-environment_Options"  value="work-environment_3"
+                                >
+                                <label class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="work-environment_4"
+                                type="radio" name="work-environment_Options"  value="work-environment_4"
+                                >
+                                <label class="form-check-label">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="work-environment_5"
+                                type="radio" name="work-environment_Options" value="work-environment_5"
+                                >
+                                <label class="form-check-label">5</label>
+                            </div>
+                        </div>
+                        <div class="question-3 form-group">
+                            <h5 class="title">Formation Content :</h5>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="formation-content_1" 
+                                type="radio" name="formation-content_Options" value="formation-content_1"
+                                >
+                                <label class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="formation-content_2"
+                                type="radio" name="formation-content_Options"  value="formation-content_2"
+                                >
+                                <label class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="formation-content_3"
+                                type="radio" name="formation-content_Options"  value="formation-content_3"
+                                >
+                                <label class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="formation-content_4"
+                                type="radio" name="formation-content_Options"  value="formation-content_4"
+                                >
+                                <label class="form-check-label">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" id="formation-content_5"
+                                type="radio" name="formation-content_Options" value="formation-content_5"
+                                >
+                                <label class="form-check-label">5</label>
+                            </div>
+                        </div>
+                        <div class="notes  form-group ">
+                            <label >Notes</label>
+                            <textarea class="form-control" id="note_company-ev" rows="3"></textarea>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="logo">internFinder</div>
+              <p class="mt-3">internFinder it is a web application intended 
+                for people seeking internship and
+                companies 
+                looking for interns.
+              </p>
+            </div>
+            <div class="col-md-3">
+              <h5>Links</h5>
+              <ul class="Links list-unstyled">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../Posts/PagePosts.html">Posts</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="../Faq/page.html">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h5>Contact Us</h5>
+              <ul class="Links list-unstyled ">
+                <li><i class="bi bi-telephone-fill"></i> (+213)78578282</li>
+                <li><i class="bi bi-envelope"></i> internFinder@gmail.com</li>
+              </ul>
+            </div>
+            <div class="col-md-2">
+              <h5>Follow us</h5>
+              <ul class="media list-unstyled">
+                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="text-center text-muted">Copyright &copy; 2023 All Rights Reserved. Owned by intrenFinder.</div>
+    </footer>
+</body>
+</html>
